@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFESC02.kicad_sch</source>
-    <date>2024-07-16T14:57:04+0000</date>
+    <date>2024-07-16T16:39:01+0000</date>
     <tool>Eeschema 8.0.3+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -185,7 +185,7 @@
       <tstamps>ee2b2405-3af7-43e1-bef1-a6a6027ab6bc</tstamps>
     </comp>
     <comp ref="C10">
-      <value>1u, 25V</value>
+      <value>1u/25V</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
@@ -236,15 +236,17 @@
       <tstamps>ff27284e-6859-4960-bd54-e776f8a29294</tstamps>
     </comp>
     <comp ref="C13">
-      <value>10u</value>
+      <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
+        <field name="UST_ID"/>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -336,6 +338,42 @@
       <property name="ki_fp_filters" value="CP_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>5c606866-f8b1-43ea-a2e9-e161c3b950e9</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="UST_ID">607c0671128750769ee58c7f</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="607c0671128750769ee58c7f"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFESC02.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad95c141-df01-4a0a-80d4-8297644cfac7</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>100u</value>
+      <footprint>Mlab_C:TantalC_SizeC_Reflow</footprint>
+      <description>Polarized capacitor, small symbol</description>
+      <fields>
+        <field name="Footprint">Mlab_C:TantalC_SizeC_Reflow</field>
+        <field name="Datasheet"/>
+        <field name="Description">Polarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFESC02.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8ea035e-0e64-40e4-a890-2f9b1bfb17ae</tstamps>
     </comp>
     <comp ref="D1">
       <value>YELLOW</value>
@@ -658,13 +696,16 @@
     <comp ref="Q1">
       <value>MT31M7LPS</value>
       <footprint>Mlab_IO:PowerDI5060-8</footprint>
+      <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</datasheet>
       <description>N-MOSFET transistor, source/gate/drain</description>
       <fields>
+        <field name="UST_ID"/>
         <field name="Footprint">Mlab_IO:PowerDI5060-8</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</field>
         <field name="Description">N-MOSFET transistor, source/gate/drain</field>
       </fields>
       <libsource lib="Device" part="Q_NMOS_SGD" description="N-MOSFET transistor, source/gate/drain"/>
+      <property name="UST_ID" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
@@ -674,13 +715,16 @@
     <comp ref="Q2">
       <value>MT31M7LPS</value>
       <footprint>Mlab_IO:PowerDI5060-8</footprint>
+      <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</datasheet>
       <description>N-MOSFET transistor, source/gate/drain</description>
       <fields>
+        <field name="UST_ID"/>
         <field name="Footprint">Mlab_IO:PowerDI5060-8</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</field>
         <field name="Description">N-MOSFET transistor, source/gate/drain</field>
       </fields>
       <libsource lib="Device" part="Q_NMOS_SGD" description="N-MOSFET transistor, source/gate/drain"/>
+      <property name="UST_ID" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
@@ -690,10 +734,11 @@
     <comp ref="Q3">
       <value>MT31M7LPS</value>
       <footprint>Mlab_IO:PowerDI5060-8</footprint>
+      <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</datasheet>
       <description>N-MOSFET transistor, source/gate/drain</description>
       <fields>
         <field name="Footprint">Mlab_IO:PowerDI5060-8</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</field>
         <field name="Description">N-MOSFET transistor, source/gate/drain</field>
       </fields>
       <libsource lib="Device" part="Q_NMOS_SGD" description="N-MOSFET transistor, source/gate/drain"/>
@@ -706,10 +751,11 @@
     <comp ref="Q4">
       <value>MT31M7LPS</value>
       <footprint>Mlab_IO:PowerDI5060-8</footprint>
+      <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</datasheet>
       <description>N-MOSFET transistor, source/gate/drain</description>
       <fields>
         <field name="Footprint">Mlab_IO:PowerDI5060-8</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</field>
         <field name="Description">N-MOSFET transistor, source/gate/drain</field>
       </fields>
       <libsource lib="Device" part="Q_NMOS_SGD" description="N-MOSFET transistor, source/gate/drain"/>
@@ -722,10 +768,11 @@
     <comp ref="Q5">
       <value>MT31M7LPS</value>
       <footprint>Mlab_IO:PowerDI5060-8</footprint>
+      <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</datasheet>
       <description>N-MOSFET transistor, source/gate/drain</description>
       <fields>
         <field name="Footprint">Mlab_IO:PowerDI5060-8</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</field>
         <field name="Description">N-MOSFET transistor, source/gate/drain</field>
       </fields>
       <libsource lib="Device" part="Q_NMOS_SGD" description="N-MOSFET transistor, source/gate/drain"/>
@@ -738,10 +785,11 @@
     <comp ref="Q6">
       <value>MT31M7LPS</value>
       <footprint>Mlab_IO:PowerDI5060-8</footprint>
+      <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</datasheet>
       <description>N-MOSFET transistor, source/gate/drain</description>
       <fields>
         <field name="Footprint">Mlab_IO:PowerDI5060-8</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</field>
         <field name="Description">N-MOSFET transistor, source/gate/drain</field>
       </fields>
       <libsource lib="Device" part="Q_NMOS_SGD" description="N-MOSFET transistor, source/gate/drain"/>
@@ -1695,6 +1743,8 @@
     </net>
     <net code="32" name="GNDPWR">
       <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="J3" pin="1" pinfunction="-" pintype="passive"/>
@@ -1791,6 +1841,8 @@
       <node ref="C15" pin="1" pintype="passive"/>
       <node ref="C16" pin="1" pintype="passive"/>
       <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="IC1" pin="5" pinfunction="PVDD" pintype="passive"/>
