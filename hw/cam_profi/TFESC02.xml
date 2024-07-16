@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFESC02.kicad_sch</source>
-    <date>2024-07-16T12:48:22+0000</date>
+    <date>2024-07-16T14:25:37+0000</date>
     <tool>Eeschema 8.0.3+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -304,6 +304,23 @@
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>81c5a0e7-a955-4f81-ad84-7795b5ea65a9</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFESC02.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4537d4f5-9dc2-4a7c-b1c2-cb2752561f0f</tstamps>
     </comp>
     <comp ref="D1">
       <value>YELLOW</value>
@@ -1610,10 +1627,12 @@
       <node ref="NT7" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="28" name="/SN">
+      <node ref="C17" pin="2" pintype="passive"/>
       <node ref="IC1" pin="23" pinfunction="SN" pintype="passive"/>
       <node ref="NT4" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="29" name="/SP">
+      <node ref="C17" pin="1" pintype="passive"/>
       <node ref="IC1" pin="22" pinfunction="SP" pintype="passive"/>
       <node ref="NT3" pin="1" pinfunction="1" pintype="passive"/>
     </net>
