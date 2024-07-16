@@ -24,6 +24,6 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 23,"Resistor, small symbol",R_Small,R10R11R12R13R14R15,10R,R_0603_1608Metric,6,~,,,,
 24,"Resistor, small symbol",R_Small,R3R4R6R7R8R16R17,5k1,R_0603_1608Metric,7,~,,,,
 25,"Resistor, small symbol",R_Small,R18R19R20R21R22R23,50k,R_0603_1608Metric,6,~,,,,
-26,Resistor,R,R_SENSE1,R,R_1206_3216Metric,1,~,,,,
+26,Resistor,R,R_SENSE1,R,R_2512_6332Metric,1,~,,,,
 27,"Resistor, small symbol",R_Small,R1R2R5R9,R_Small,R_0603_1608Metric,4,~,,,,
 28,"300mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23",MIC5504-3.3YM5,U1,MIC5504-3.3YM5,SOT-23-5,1,http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf,5c7255e81287500b4e112ea2,,,
