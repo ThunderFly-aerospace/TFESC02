@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFESC02.kicad_sch</source>
-    <date>2024-07-16T14:25:37+0000</date>
+    <date>2024-07-16T14:57:04+0000</date>
     <tool>Eeschema 8.0.3+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -28,14 +28,12 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="UST_id"/>
         <field name="UST_ID">5c70984812875079b91f8bf5</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_id" value=""/>
       <property name="UST_ID" value="5c70984812875079b91f8bf5"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
@@ -48,14 +46,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="UST_id"/>
         <field name="UST_ID">5c70984812875079b91f8bf2</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_id" value=""/>
       <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
@@ -69,11 +65,13 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
+        <field name="UST_ID">5c70984812875079b91f8bef</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bef"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -102,14 +100,12 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="UST_id"/>
         <field name="UST_ID">5c70984812875079b91f8bc2</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_id" value=""/>
       <property name="UST_ID" value="5c70984812875079b91f8bc2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
@@ -120,14 +116,16 @@
     </comp>
     <comp ref="C6">
       <value>10u</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="UST_ID">607c0671128750769ee58c7f</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="607c0671128750769ee58c7f"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -322,6 +320,23 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4537d4f5-9dc2-4a7c-b1c2-cb2752561f0f</tstamps>
     </comp>
+    <comp ref="C18">
+      <value>100u</value>
+      <footprint>Mlab_C:TantalC_SizeC_Reflow</footprint>
+      <description>Polarized capacitor, small symbol</description>
+      <fields>
+        <field name="Footprint">Mlab_C:TantalC_SizeC_Reflow</field>
+        <field name="Datasheet"/>
+        <field name="Description">Polarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFESC02.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c606866-f8b1-43ea-a2e9-e161c3b950e9</tstamps>
+    </comp>
     <comp ref="D1">
       <value>YELLOW</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
@@ -360,14 +375,12 @@
       <value>BZX585-B5V6.115</value>
       <footprint>Diode_SMD:D_SOD-523</footprint>
       <fields>
-        <field name="UST_id"/>
         <field name="UST_ID">60879d38128750769ee58e48</field>
         <field name="Footprint">Diode_SMD:D_SOD-523</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="MLAB_D" part="D_ZENER" description=""/>
-      <property name="UST_id" value=""/>
       <property name="UST_ID" value="60879d38128750769ee58e48"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
@@ -1151,14 +1164,12 @@
       <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
       <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf</datasheet>
       <fields>
-        <field name="UST_id"/>
         <field name="UST_ID">5c7255e81287500b4e112ea2</field>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
         <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Regulator_Linear" part="MIC5504-3.3YM5" description="300mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23"/>
-      <property name="UST_id" value=""/>
       <property name="UST_ID" value="5c7255e81287500b4e112ea2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
@@ -1181,6 +1192,24 @@
         <field name="Footprint"/>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_Small">
+      <description>Polarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Polarized capacitor, small symbol</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -1665,6 +1694,7 @@
       <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
     </net>
     <net code="32" name="GNDPWR">
+      <node ref="C18" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="J3" pin="1" pinfunction="-" pintype="passive"/>
@@ -1760,6 +1790,7 @@
       <node ref="C14" pin="1" pintype="passive"/>
       <node ref="C15" pin="1" pintype="passive"/>
       <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="IC1" pin="5" pinfunction="PVDD" pintype="passive"/>
