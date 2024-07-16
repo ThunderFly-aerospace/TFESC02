@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFESC02.kicad_sch</source>
-    <date>2024-07-16T16:39:01+0000</date>
+    <date>2024-07-16T16:46:42+0000</date>
     <tool>Eeschema 8.0.3+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1207,6 +1207,25 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>46856ebd-ab1d-4032-8605-ff0484705e6d</tstamps>
     </comp>
+    <comp ref="TP1">
+      <value>EXT CLK</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="UST_ID"/>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="UST_ID" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFESC02.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>520abd34-e0f2-4e22-8262-5305d6b96abe</tstamps>
+    </comp>
     <comp ref="U1">
       <value>MIC5504-3.3YM5</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
@@ -1228,6 +1247,24 @@
     </comp>
   </components>
   <libparts>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Device" part="C">
       <description>Unpolarized capacitor</description>
       <docs>~</docs>
@@ -1556,6 +1593,9 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
     <library logical="Device">
       <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
     </library>
@@ -1806,37 +1846,41 @@
       <node ref="C12" pin="1" pintype="passive"/>
       <node ref="IC1" pin="17" pinfunction="BSTC" pintype="passive"/>
     </net>
-    <net code="43" name="Net-(Q1-G)">
+    <net code="43" name="Net-(IC1-EXT_CLK)">
+      <node ref="IC1" pin="32" pinfunction="EXT_CLK" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(Q1-G)">
       <node ref="Q1" pin="2" pinfunction="G" pintype="input"/>
       <node ref="R10" pin="2" pintype="passive"/>
       <node ref="R20" pin="1" pintype="passive"/>
     </net>
-    <net code="44" name="Net-(Q2-G)">
+    <net code="45" name="Net-(Q2-G)">
       <node ref="Q2" pin="2" pinfunction="G" pintype="input"/>
       <node ref="R11" pin="2" pintype="passive"/>
       <node ref="R21" pin="1" pintype="passive"/>
     </net>
-    <net code="45" name="Net-(Q3-G)">
+    <net code="46" name="Net-(Q3-G)">
       <node ref="Q3" pin="2" pinfunction="G" pintype="input"/>
       <node ref="R12" pin="2" pintype="passive"/>
       <node ref="R19" pin="1" pintype="passive"/>
     </net>
-    <net code="46" name="Net-(Q4-G)">
+    <net code="47" name="Net-(Q4-G)">
       <node ref="Q4" pin="2" pinfunction="G" pintype="input"/>
       <node ref="R13" pin="2" pintype="passive"/>
       <node ref="R18" pin="1" pintype="passive"/>
     </net>
-    <net code="47" name="Net-(Q5-G)">
+    <net code="48" name="Net-(Q5-G)">
       <node ref="Q5" pin="2" pinfunction="G" pintype="input"/>
       <node ref="R14" pin="2" pintype="passive"/>
       <node ref="R22" pin="1" pintype="passive"/>
     </net>
-    <net code="48" name="Net-(Q6-G)">
+    <net code="49" name="Net-(Q6-G)">
       <node ref="Q6" pin="2" pinfunction="G" pintype="input"/>
       <node ref="R15" pin="2" pintype="passive"/>
       <node ref="R23" pin="1" pintype="passive"/>
     </net>
-    <net code="49" name="VDDPWR">
+    <net code="50" name="VDDPWR">
       <node ref="C14" pin="1" pintype="passive"/>
       <node ref="C15" pin="1" pintype="passive"/>
       <node ref="C16" pin="1" pintype="passive"/>
@@ -1851,9 +1895,6 @@
       <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="Q5" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
-    </net>
-    <net code="50" name="unconnected-(IC1-EXT_CLK-Pad32)">
-      <node ref="IC1" pin="32" pinfunction="EXT_CLK" pintype="passive+no_connect"/>
     </net>
     <net code="51" name="unconnected-(IC1-GCTRL-Pad3)">
       <node ref="IC1" pin="3" pinfunction="GCTRL" pintype="passive+no_connect"/>
