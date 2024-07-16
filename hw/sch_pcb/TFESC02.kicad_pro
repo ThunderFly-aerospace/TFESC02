@@ -640,7 +640,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "../../doc/assets/templates/KiCAD/page_layout.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -654,7 +654,7 @@
   "sheets": [
     [
       "a84f7900-8c89-40c3-acdc-6ecbe186d39f",
-      "Hlavní"
+      "Root"
     ]
   ],
   "text_variables": {}
