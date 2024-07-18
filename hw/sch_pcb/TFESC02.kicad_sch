@@ -7387,7 +7387,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "47k"
 			(at 247.65 38.0999 0)
 			(effects
 				(font
@@ -7415,6 +7415,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 245.11 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984712875079b91f8b6e"
 			(at 245.11 36.83 0)
 			(effects
 				(font
@@ -7560,6 +7569,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "60d582f21287500165f85a23"
+			(at 116.84 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a8b6d30e-2d95-49d8-83bb-ef768051f141")
 		)
@@ -7696,6 +7714,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "60d582a31287500165f859f8"
+			(at 22.86 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e7634885-0761-4ecb-a26e-4711e4bbcaf1")
 		)
@@ -7823,6 +7850,15 @@
 			)
 		)
 		(property "Description" "1x08 2.54 mm pitch header"
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5fa0f75012875025b3977948"
 			(at 27.94 88.9 0)
 			(effects
 				(font
@@ -7986,6 +8022,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "5c70984512875079b91f894f"
+			(at 241.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0f18eb62-0d07-4d0e-85cf-a7e16b016aea")
 		)
@@ -8020,7 +8065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "NetTie_2"
+		(property "Value" "tie"
 			(at 90.17 116.84 0)
 			(effects
 				(font
@@ -8048,6 +8093,15 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
+			(at 90.17 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "-"
 			(at 90.17 119.38 0)
 			(effects
 				(font
@@ -8089,7 +8143,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n, 25V"
 			(at 275.844 45.72 0)
 			(effects
 				(font
@@ -8117,6 +8171,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 275.59 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984812875079b91f8bf2"
 			(at 275.59 40.64 0)
 			(effects
 				(font
@@ -8291,7 +8354,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MT31M7LPS"
+		(property "Value" "DMT31M7LPS"
 			(at 260.35 49.5299 0)
 			(effects
 				(font
@@ -8327,7 +8390,16 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "669990696fdfe6f54e2eb28a"
+			(at 254 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" " DMT31M7LPS-13"
 			(at 254 48.26 0)
 			(effects
 				(font
@@ -8373,7 +8445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "NetTie_2"
+		(property "Value" "tie"
 			(at 213.36 147.32 0)
 			(effects
 				(font
@@ -8401,6 +8473,15 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
+			(at 213.36 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "-"
 			(at 213.36 149.86 0)
 			(effects
 				(font
@@ -8443,7 +8524,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75R"
 			(at 38.1 120.6499 0)
 			(effects
 				(font
@@ -8471,6 +8552,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 35.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984512875079b91f8954"
 			(at 35.56 119.38 0)
 			(effects
 				(font
@@ -8579,7 +8669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "NetTie_2"
+		(property "Value" "tie"
 			(at 254 76.2 0)
 			(effects
 				(font
@@ -8607,6 +8697,15 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
+			(at 254 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "-"
 			(at 254 78.74 0)
 			(effects
 				(font
@@ -8743,6 +8842,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 104.14 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "628d1404dc56076e9a223650"
 			(at 104.14 168.91 0)
 			(effects
 				(font
@@ -8984,7 +9092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "NetTie_2"
+		(property "Value" "tie"
 			(at 213.36 135.89 0)
 			(effects
 				(font
@@ -9012,6 +9120,15 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
+			(at 213.36 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "-"
 			(at 213.36 138.43 0)
 			(effects
 				(font
@@ -9054,7 +9171,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MT31M7LPS"
+		(property "Value" "DMT31M7LPS"
 			(at 260.35 111.7599 0)
 			(effects
 				(font
@@ -9082,6 +9199,24 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, source/gate/drain"
+			(at 254 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" " DMT31M7LPS-13"
+			(at 254 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "669990696fdfe6f54e2eb28a"
 			(at 254 110.49 0)
 			(effects
 				(font
@@ -9127,7 +9262,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "47k"
 			(at 247.65 76.1999 0)
 			(effects
 				(font
@@ -9155,6 +9290,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 245.11 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984712875079b91f8b6e"
 			(at 245.11 74.93 0)
 			(effects
 				(font
@@ -9263,7 +9407,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n, 25V"
 			(at 73.66 80.0162 0)
 			(effects
 				(font
@@ -9299,7 +9443,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "5c70984812875079b91f8bef"
+		(property "UST_ID" "5c70984812875079b91f8bf2"
 			(at 71.12 78.74 0)
 			(effects
 				(font
@@ -9369,6 +9513,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 45.72 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "628d1404dc56076e9a223650"
 			(at 45.72 53.34 0)
 			(effects
 				(font
@@ -9513,6 +9666,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "628d1404dc56076e9a223650"
+			(at 140.97 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "185c2193-72f0-4275-b421-ebe266df45a0")
 		)
@@ -9612,7 +9774,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u, 30V"
+		(property "Value" "10u, 25V"
 			(at 80.01 90.17 0)
 			(effects
 				(font
@@ -9640,6 +9802,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 91.44 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "669997d16fdfe6f54e2eb335"
 			(at 91.44 88.9 0)
 			(effects
 				(font
@@ -9783,6 +9954,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "60d581db1287500165f859a2"
+			(at 153.67 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7a524ac4-3d32-44f9-859e-3a25610e9c50")
 		)
@@ -9853,6 +10033,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "5c70984812875079b91f8bea"
+			(at 201.93 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "21ac7747-b4b6-419e-8a90-481abacc5a63")
 		)
@@ -9887,7 +10076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "NetTie_2"
+		(property "Value" "tie"
 			(at 254 114.3 0)
 			(effects
 				(font
@@ -9915,6 +10104,15 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
+			(at 254 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "-"
 			(at 254 116.84 0)
 			(effects
 				(font
@@ -9957,7 +10155,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0R01"
 			(at 218.44 147.3199 0)
 			(effects
 				(font
@@ -9985,6 +10183,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 215.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "WW25NR010FTL"
+			(at 215.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984712875079b91f8abf"
 			(at 215.9 146.05 0)
 			(effects
 				(font
@@ -10235,7 +10451,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u/25V"
+		(property "Value" "1u, 25V"
 			(at 93.472 92.456 0)
 			(effects
 				(font
@@ -10263,6 +10479,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 101.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984812875079b91f8bc3"
 			(at 101.6 90.17 0)
 			(effects
 				(font
@@ -10341,6 +10566,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "628d1404dc56076e9a223650"
+			(at 113.03 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ed2a6008-6074-4c77-958f-bbe8572dfbf8")
 		)
@@ -10411,7 +10645,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "-"
 			(at 130.81 24.13 0)
 			(effects
 				(font
@@ -10516,7 +10750,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 21.59 179.07 0)
 			(effects
 				(font
@@ -10593,7 +10827,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u"
+		(property "Value" "100u, 25V"
 			(at 90.678 80.01 0)
 			(effects
 				(font
@@ -10621,6 +10855,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
+			(at 88.9 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984412875079b91f886d"
 			(at 88.9 78.74 0)
 			(effects
 				(font
@@ -10662,7 +10905,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "47k"
 			(at 248.666 89.916 0)
 			(effects
 				(font
@@ -10690,6 +10933,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 247.65 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984712875079b91f8b6e"
 			(at 247.65 88.9 0)
 			(effects
 				(font
@@ -10798,7 +11050,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MT31M7LPS"
+		(property "Value" "DMT31M7LPS"
 			(at 260.35 35.5599 0)
 			(effects
 				(font
@@ -10834,7 +11086,16 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "669990696fdfe6f54e2eb28a"
+			(at 254 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" " DMT31M7LPS-13"
 			(at 254 34.29 0)
 			(effects
 				(font
@@ -10880,7 +11141,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "1k"
 			(at 25.4 120.6499 0)
 			(effects
 				(font
@@ -10908,6 +11169,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 22.86 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984512875079b91f895c"
 			(at 22.86 119.38 0)
 			(effects
 				(font
@@ -11266,6 +11536,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "5c70984512875079b91f894f"
+			(at 241.3 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "58c4d2b0-c346-4249-a8ad-a645151060ae")
 		)
@@ -11300,7 +11579,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10u, 25V"
 			(at 82.55 80.0162 0)
 			(effects
 				(font
@@ -11336,7 +11615,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "607c0671128750769ee58c7f"
+		(property "UST_ID" "669997d16fdfe6f54e2eb335"
 			(at 80.01 78.74 0)
 			(effects
 				(font
@@ -11415,6 +11694,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "628d1404dc56076e9a223650"
+			(at 130.81 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f73a3a06-cfc9-4bd7-a40a-9b0bfe4f73a6")
 		)
@@ -11477,6 +11765,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 71.12 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5dad50c1128750448eca18c6"
 			(at 71.12 105.41 0)
 			(effects
 				(font
@@ -11688,6 +11985,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "5c70984812875079b91f8bc3"
+			(at 81.28 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "902b90c6-b0fb-4b3c-81de-d12c97f3216f")
 		)
@@ -11756,6 +12062,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "5c70984512875079b91f894f"
+			(at 241.3 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "38620f9e-d558-4a00-aa41-c5064323bae5")
 		)
@@ -11789,7 +12104,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n, 25V"
 			(at 275.844 121.666 0)
 			(effects
 				(font
@@ -11817,6 +12132,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 275.59 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984812875079b91f8bf2"
 			(at 275.59 116.84 0)
 			(effects
 				(font
@@ -12017,6 +12341,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 49.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "628d1404dc56076e9a223650"
 			(at 49.53 55.88 0)
 			(effects
 				(font
@@ -12387,7 +12720,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MT31M7LPS"
+		(property "Value" "DMT31M7LPS"
 			(at 260.35 125.7299 0)
 			(effects
 				(font
@@ -12415,6 +12748,24 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, source/gate/drain"
+			(at 254 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" " DMT31M7LPS-13"
+			(at 254 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "669990696fdfe6f54e2eb28a"
 			(at 254 124.46 0)
 			(effects
 				(font
@@ -12560,6 +12911,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "5c70984812875079b91f8ba8"
+			(at 29.21 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f95fef7a-9377-4e66-af1b-36f1dcfd3073")
 		)
@@ -12695,6 +13055,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "5c70984812875079b91f8bc3"
+			(at 123.19 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90c6f8c8-2dfa-42e5-a269-ab34a51440cc")
 		)
@@ -12728,7 +13097,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n, 25V"
 			(at 275.844 83.82 0)
 			(effects
 				(font
@@ -12756,6 +13125,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 275.59 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984812875079b91f8bf2"
 			(at 275.59 78.74 0)
 			(effects
 				(font
@@ -12797,7 +13175,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "47k"
 			(at 248.92 52.324 0)
 			(effects
 				(font
@@ -12825,6 +13203,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 247.65 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984712875079b91f8b6e"
 			(at 247.65 50.8 0)
 			(effects
 				(font
@@ -12903,6 +13290,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "60d582331287500165f859d0"
+			(at 35.56 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "af4c8e05-f390-4e51-a697-113dd76c9e35")
 		)
@@ -12970,6 +13366,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "SM04B-GHS-TB"
+			(at 27.94 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c86273d1287500b4e0280be"
+			(at 27.94 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "3ed8c3f0-da36-4cdb-b9ef-bc692cb64150")
 		)
@@ -13013,7 +13427,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10u, 25V"
 			(at 43.18 30.4862 0)
 			(effects
 				(font
@@ -13049,7 +13463,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "607c0671128750769ee58c7f"
+		(property "UST_ID" "669997d16fdfe6f54e2eb335"
 			(at 40.64 29.21 0)
 			(effects
 				(font
@@ -13158,7 +13572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "NetTie_2"
+		(property "Value" "tie"
 			(at 213.36 138.43 0)
 			(effects
 				(font
@@ -13186,6 +13600,15 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
+			(at 213.36 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "-"
 			(at 213.36 140.97 0)
 			(effects
 				(font
@@ -13427,7 +13850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "NetTie_2"
+		(property "Value" "tie"
 			(at 254 38.1 0)
 			(effects
 				(font
@@ -13455,6 +13878,15 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
+			(at 254 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "-"
 			(at 254 40.64 0)
 			(effects
 				(font
@@ -13589,6 +14021,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 241.3 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984512875079b91f894f"
 			(at 241.3 72.39 0)
 			(effects
 				(font
@@ -13739,6 +14180,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "66998eac6fdfe6f54e2eb206"
+			(at 107.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "25"
 			(uuid "46c0e099-f2d6-479a-8e2f-7c52c660d66a")
 		)
@@ -13877,7 +14327,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "47k"
 			(at 248.92 128.27 0)
 			(effects
 				(font
@@ -13905,6 +14355,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 247.65 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984712875079b91f8b6e"
 			(at 247.65 127 0)
 			(effects
 				(font
@@ -13947,7 +14406,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "47k"
 			(at 247.65 114.2999 0)
 			(effects
 				(font
@@ -13975,6 +14434,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 245.11 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984712875079b91f8b6e"
 			(at 245.11 113.03 0)
 			(effects
 				(font
@@ -14017,7 +14485,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "120R"
 			(at 156.21 168.9099 0)
 			(effects
 				(font
@@ -14045,6 +14513,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 153.67 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984712875079b91f8b86"
 			(at 153.67 167.64 0)
 			(effects
 				(font
@@ -14086,7 +14563,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 77.851 177.673 0)
 			(effects
 				(font
@@ -14122,7 +14599,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "5c70984812875079b91f8bc2"
+		(property "UST_ID" "5c70984812875079b91f8bc3"
 			(at 74.93 176.53 0)
 			(effects
 				(font
@@ -14397,6 +14874,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "5c70984512875079b91f894f"
+			(at 241.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e4c55999-9b10-4601-ad83-62bc3ebdf59a")
 		)
@@ -14460,6 +14946,24 @@
 		)
 		(property "Description" ""
 			(at 259.08 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MR30PW-F"
+			(at 257.81 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "66998f726fdfe6f54e2eb268"
+			(at 257.81 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14672,6 +15176,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "628d1404dc56076e9a223650"
+			(at 147.32 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3e0ad297-3568-4e7a-9ab2-ac1c3c117124")
 		)
@@ -14706,7 +15219,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 168.91 74.9362 0)
 			(effects
 				(font
@@ -14742,7 +15255,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "5c70984812875079b91f8bc3"
 			(at 166.37 73.66 0)
 			(effects
 				(font
@@ -14784,7 +15297,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u"
+		(property "Value" "100u, 25V"
 			(at 51.308 30.48 0)
 			(effects
 				(font
@@ -14812,6 +15325,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
+			(at 49.53 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984412875079b91f886d"
 			(at 49.53 29.21 0)
 			(effects
 				(font
@@ -14955,6 +15477,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "5c70984812875079b91f8bc3"
+			(at 101.6 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "877dbc4c-d8fb-4acd-9ce2-2599499e9407")
 		)
@@ -14989,7 +15520,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "33R"
 			(at 119.38 167.6399 0)
 			(effects
 				(font
@@ -15017,6 +15548,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 116.84 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984512875079b91f8952"
 			(at 116.84 166.37 0)
 			(effects
 				(font
@@ -15059,7 +15599,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MT31M7LPS"
+		(property "Value" "DMT31M7LPS"
 			(at 260.35 87.6299 0)
 			(effects
 				(font
@@ -15087,6 +15627,24 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, source/gate/drain"
+			(at 254 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" " DMT31M7LPS-13"
+			(at 254 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "669990696fdfe6f54e2eb28a"
 			(at 254 86.36 0)
 			(effects
 				(font
@@ -15132,7 +15690,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "L_Small"
+		(property "Value" "FerriteChip"
 			(at 167.64 82.5499 0)
 			(effects
 				(font
@@ -15160,6 +15718,24 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
+			(at 166.37 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BLM21BD601SN1D "
+			(at 166.37 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "64ab338c76c82a1d3b578872"
 			(at 166.37 81.28 0)
 			(effects
 				(font
@@ -15228,6 +15804,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 241.3 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984512875079b91f894f"
 			(at 241.3 86.36 0)
 			(effects
 				(font
@@ -15336,7 +15921,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MT31M7LPS"
+		(property "Value" "DMT31M7LPS"
 			(at 260.35 73.6599 0)
 			(effects
 				(font
@@ -15364,6 +15949,24 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, source/gate/drain"
+			(at 254 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" " DMT31M7LPS-13"
+			(at 254 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "669990696fdfe6f54e2eb28a"
 			(at 254 72.39 0)
 			(effects
 				(font
@@ -15474,7 +16077,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 29.21 179.07 0)
 			(effects
 				(font
@@ -15579,6 +16182,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 133.35 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984812875079b91f8bc3"
 			(at 133.35 109.22 0)
 			(effects
 				(font
