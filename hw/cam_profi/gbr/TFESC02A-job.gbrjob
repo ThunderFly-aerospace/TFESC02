@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "8.0.3+1"
     },
-    "CreationDate": "2024-07-16T16:45:46+00:00"
+    "CreationDate": "2024-07-17T01:18:26+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "TFESC02",
       "GUID": "54464553-4330-4322-9e6b-696361645f70",
-      "Revision": "rev?"
+      "Revision": "01A"
     },
     "Size": {
       "X": 45.05,
@@ -28,8 +28,8 @@
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.2,
-      "TrackToRegion": 0.3,
-      "RegionToRegion": 0.3
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
     }
   ],
   "FilesAttributes": [

@@ -2,17 +2,17 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFESC02.kicad_sch</source>
-    <date>2024-07-16T16:46:42+0000</date>
+    <date>2024-07-17T01:19:15+0000</date>
     <tool>Eeschema 8.0.3+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
+        <title>TFESC01A</title>
+        <company>ThunderFly s.r.o.</company>
+        <rev>01A</rev>
         <date/>
         <source>TFESC02.kicad_sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
+        <comment number="1" value="Roman Dvorak"/>
+        <comment number="2" value="&lt;dvorakroman@thunderfly.cz&gt;"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
@@ -1192,10 +1192,10 @@
     </comp>
     <comp ref="R_SENSE1">
       <value>R</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
       <description>Resistor</description>
       <fields>
-        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Footprint">Resistor_SMD:R_2512_6332Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor</field>
       </fields>
