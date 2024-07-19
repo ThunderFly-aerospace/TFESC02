@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFESC02.kicad_sch</source>
-    <date>2024-07-17T01:19:15+0000</date>
+    <date>2024-07-19T08:45:54+0000</date>
     <tool>Eeschema 8.0.3+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -25,7 +25,7 @@
   </design>
   <components>
     <comp ref="C1">
-      <value>10uF</value>
+      <value>10u</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bf5</field>
@@ -43,7 +43,7 @@
       <tstamps>5bac52d8-2663-4232-9a13-b18159afacd3</tstamps>
     </comp>
     <comp ref="C2">
-      <value>100nF</value>
+      <value>100n</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bf2</field>
@@ -61,17 +61,17 @@
       <tstamps>fbf0c6f3-0a4a-4012-b14b-d62981705bda</tstamps>
     </comp>
     <comp ref="C3">
-      <value>100n</value>
+      <value>100n, 25V</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8bef</field>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="UST_ID" value="5c70984812875079b91f8bef"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -84,11 +84,13 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
+        <field name="UST_ID">5dad50c1128750448eca18c6</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5dad50c1128750448eca18c6"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -97,16 +99,16 @@
       <tstamps>72e3b80e-7649-44a2-b2ba-b505639cc0a5</tstamps>
     </comp>
     <comp ref="C5">
-      <value>1uF</value>
+      <value>1u</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8bc2</field>
+        <field name="UST_ID">5c70984812875079b91f8bc3</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="5c70984812875079b91f8bc2"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bc3"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -115,17 +117,17 @@
       <tstamps>dacc119b-ed63-484a-a15f-3dcc041b7367</tstamps>
     </comp>
     <comp ref="C6">
-      <value>10u</value>
+      <value>10u, 25V</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
-        <field name="UST_ID">607c0671128750769ee58c7f</field>
+        <field name="UST_ID">669997d16fdfe6f54e2eb335</field>
         <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="UST_ID" value="607c0671128750769ee58c7f"/>
+      <property name="UST_ID" value="669997d16fdfe6f54e2eb335"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -138,11 +140,13 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
+        <field name="UST_ID">5c70984812875079b91f8bc3</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bc3"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -151,15 +155,17 @@
       <tstamps>7c211595-b18c-4694-92f6-77e1e4ccaac3</tstamps>
     </comp>
     <comp ref="C8">
-      <value>10u, 30V</value>
+      <value>10u, 25V</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
+        <field name="UST_ID">669997d16fdfe6f54e2eb335</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="669997d16fdfe6f54e2eb335"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -172,11 +178,13 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
+        <field name="UST_ID">5c70984812875079b91f8bc3</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bc3"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -185,15 +193,17 @@
       <tstamps>ee2b2405-3af7-43e1-bef1-a6a6027ab6bc</tstamps>
     </comp>
     <comp ref="C10">
-      <value>1u/25V</value>
+      <value>1u, 25V</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
+        <field name="UST_ID">5c70984812875079b91f8bc3</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bc3"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -206,11 +216,13 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
+        <field name="UST_ID">5c70984812875079b91f8bc3</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bc3"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -223,11 +235,13 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
+        <field name="UST_ID">5c70984812875079b91f8bc3</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bc3"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -236,17 +250,17 @@
       <tstamps>ff27284e-6859-4960-bd54-e776f8a29294</tstamps>
     </comp>
     <comp ref="C13">
-      <value>1uF</value>
+      <value>1u</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
-        <field name="UST_ID"/>
+        <field name="UST_ID">5c70984812875079b91f8bc3</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bc3"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -255,15 +269,17 @@
       <tstamps>e830b464-6767-4c15-ac38-009243b709ba</tstamps>
     </comp>
     <comp ref="C14">
-      <value>100n</value>
+      <value>100n, 25V</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -272,15 +288,17 @@
       <tstamps>a1748856-7398-49be-b35f-02b66b9c98ae</tstamps>
     </comp>
     <comp ref="C15">
-      <value>100n</value>
+      <value>100n, 25V</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -289,15 +307,17 @@
       <tstamps>0f854d61-6a3b-4634-9445-d5795a958130</tstamps>
     </comp>
     <comp ref="C16">
-      <value>100n</value>
+      <value>100n, 25V</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -310,11 +330,13 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
+        <field name="UST_ID">5c70984812875079b91f8bea</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bea"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -323,15 +345,17 @@
       <tstamps>4537d4f5-9dc2-4a7c-b1c2-cb2752561f0f</tstamps>
     </comp>
     <comp ref="C18">
-      <value>100u</value>
+      <value>100u, 25V</value>
       <footprint>Mlab_C:TantalC_SizeC_Reflow</footprint>
       <description>Polarized capacitor, small symbol</description>
       <fields>
+        <field name="UST_ID">5c70984412875079b91f886d</field>
         <field name="Footprint">Mlab_C:TantalC_SizeC_Reflow</field>
         <field name="Datasheet"/>
         <field name="Description">Polarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984412875079b91f886d"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -340,17 +364,17 @@
       <tstamps>5c606866-f8b1-43ea-a2e9-e161c3b950e9</tstamps>
     </comp>
     <comp ref="C19">
-      <value>10u</value>
+      <value>10u, 25V</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
-        <field name="UST_ID">607c0671128750769ee58c7f</field>
+        <field name="UST_ID">669997d16fdfe6f54e2eb335</field>
         <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="UST_ID" value="607c0671128750769ee58c7f"/>
+      <property name="UST_ID" value="669997d16fdfe6f54e2eb335"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -359,15 +383,17 @@
       <tstamps>ad95c141-df01-4a0a-80d4-8297644cfac7</tstamps>
     </comp>
     <comp ref="C20">
-      <value>100u</value>
+      <value>100u, 25V</value>
       <footprint>Mlab_C:TantalC_SizeC_Reflow</footprint>
       <description>Polarized capacitor, small symbol</description>
       <fields>
+        <field name="UST_ID">5c70984412875079b91f886d</field>
         <field name="Footprint">Mlab_C:TantalC_SizeC_Reflow</field>
         <field name="Datasheet"/>
         <field name="Description">Polarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984412875079b91f886d"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -380,11 +406,13 @@
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <description>Light emitting diode, small symbol</description>
       <fields>
+        <field name="UST_ID">60d582a31287500165f859f8</field>
         <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Light emitting diode, small symbol</field>
       </fields>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="UST_ID" value="60d582a31287500165f859f8"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="LED diode light-emitting-diode"/>
@@ -397,11 +425,13 @@
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <description>Light emitting diode, small symbol</description>
       <fields>
+        <field name="UST_ID">60d582331287500165f859d0</field>
         <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Light emitting diode, small symbol</field>
       </fields>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="UST_ID" value="60d582331287500165f859d0"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="LED diode light-emitting-diode"/>
@@ -431,11 +461,13 @@
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <description>Light emitting diode, small symbol</description>
       <fields>
+        <field name="UST_ID">60d582f21287500165f85a23</field>
         <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Light emitting diode, small symbol</field>
       </fields>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="UST_ID" value="60d582f21287500165f85a23"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="LED diode light-emitting-diode"/>
@@ -448,17 +480,99 @@
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <description>Light emitting diode, small symbol</description>
       <fields>
+        <field name="UST_ID">60d581db1287500165f859a2</field>
         <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Light emitting diode, small symbol</field>
       </fields>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="UST_ID" value="60d581db1287500165f859a2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="LED diode light-emitting-diode"/>
       <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4496c576-18ee-4b5a-9519-e0658d740129</tstamps>
+    </comp>
+    <comp ref="FID1">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Mask1mm</footprint>
+      <description>Fiducial Marker</description>
+      <fields>
+        <field name="UST_ID">-</field>
+        <field name="Footprint">Fiducial:Fiducial_0.5mm_Mask1mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Fiducial Marker</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="UST_ID" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFESC02.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56e7d0b7-b9c7-4a40-843a-f421a6ac1da0</tstamps>
+    </comp>
+    <comp ref="FID2">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Mask1mm</footprint>
+      <description>Fiducial Marker</description>
+      <fields>
+        <field name="UST_ID">-</field>
+        <field name="Footprint">Fiducial:Fiducial_0.5mm_Mask1mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Fiducial Marker</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="UST_ID" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFESC02.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5aa59bb9-2149-4398-ba84-fb2285107e88</tstamps>
+    </comp>
+    <comp ref="FID3">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Mask1mm</footprint>
+      <description>Fiducial Marker</description>
+      <fields>
+        <field name="UST_ID">-</field>
+        <field name="Footprint">Fiducial:Fiducial_0.5mm_Mask1mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Fiducial Marker</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="UST_ID" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFESC02.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c24623bb-6629-42ad-b644-ce13aa185e65</tstamps>
+    </comp>
+    <comp ref="FID4">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Mask1mm</footprint>
+      <description>Fiducial Marker</description>
+      <fields>
+        <field name="UST_ID">-</field>
+        <field name="Footprint">Fiducial:Fiducial_0.5mm_Mask1mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Fiducial Marker</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="UST_ID" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFESC02.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f1709fe-5db2-4aa8-af35-a2f175de09df</tstamps>
     </comp>
     <comp ref="IC1">
       <value>MCF8329A1IREER</value>
@@ -473,6 +587,7 @@
         <field name="Mouser Price/Stock"/>
         <field name="Arrow Part Number"/>
         <field name="Arrow Price/Stock"/>
+        <field name="UST_ID">66998eac6fdfe6f54e2eb206</field>
         <field name="Footprint">Mlab_IO:VQFN36_P400X500X80-37N-D</field>
         <field name="Datasheet">https://www.ti.com/lit/gpn/mcf8329a</field>
         <field name="Description">Motor / Motion / Ignition Controllers &amp; Drivers 60-V, sensorless, field-oriented control (FOC) three-phase BLDC gate driver 36-WQFN -40 to 125</field>
@@ -485,6 +600,7 @@
       <property name="Mouser Price/Stock" value=""/>
       <property name="Arrow Part Number" value=""/>
       <property name="Arrow Price/Stock" value=""/>
+      <property name="UST_ID" value="66998eac6fdfe6f54e2eb206"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -494,11 +610,15 @@
       <value>SM04B-GHS-TB</value>
       <footprint>Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal</footprint>
       <fields>
+        <field name="Manufacturer_Part_Number">SM04B-GHS-TB</field>
+        <field name="UST_ID">5c86273d1287500b4e0280be</field>
         <field name="Footprint">Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="MLAB_CONNECTORS_JST" part="SM04B-GHS-TB" description=""/>
+      <property name="Manufacturer_Part_Number" value="SM04B-GHS-TB"/>
+      <property name="UST_ID" value="5c86273d1287500b4e0280be"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -508,11 +628,13 @@
       <value>XT30PW-M</value>
       <footprint>Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal</footprint>
       <fields>
+        <field name="UST_ID">5c70984812875079b91f8ba8</field>
         <field name="Footprint">Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="MLAB_CONNECTORS" part="XT30PW-M" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8ba8"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -523,11 +645,13 @@
       <footprint>Connector_JST:JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal</footprint>
       <description>1x08 2.54 mm pitch header</description>
       <fields>
+        <field name="UST_ID">5fa0f75012875025b3977948</field>
         <field name="Footprint">Connector_JST:JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal</field>
         <field name="Datasheet"/>
         <field name="Description">1x08 2.54 mm pitch header</field>
       </fields>
       <libsource lib="MLAB_CONNECTORS_JST" part="SM08B-GHS-TB" description="1x08 2.54 mm pitch header"/>
+      <property name="UST_ID" value="5fa0f75012875025b3977948"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="1x08, header, connector, pinheader"/>
@@ -539,11 +663,15 @@
       <footprint>Connector_AMASS:AMASS_MR30PW-FB_1x03_P3.50mm_Horizontal</footprint>
       <datasheet>https://www.tme.eu/Document/4a6895c4a2c7eddf355b391fd904cb53/MR30PW-FB.pdf</datasheet>
       <fields>
+        <field name="Manufacturer_Part_Number">MR30PW-F</field>
+        <field name="UST_ID">66998f726fdfe6f54e2eb268</field>
         <field name="Footprint">Connector_AMASS:AMASS_MR30PW-FB_1x03_P3.50mm_Horizontal</field>
         <field name="Datasheet">https://www.tme.eu/Document/4a6895c4a2c7eddf355b391fd904cb53/MR30PW-FB.pdf</field>
         <field name="Description"/>
       </fields>
       <libsource lib="MLAB_CONNECTORS" part="MR30PW-F" description=""/>
+      <property name="Manufacturer_Part_Number" value="MR30PW-F"/>
+      <property name="UST_ID" value="66998f726fdfe6f54e2eb268"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="MR30,XT30,MR60,XT60,Power,Connector"/>
@@ -551,15 +679,19 @@
       <tstamps>e1f6592c-e4a2-4477-b82d-0a8bdb3fe6af</tstamps>
     </comp>
     <comp ref="L1">
-      <value>L_Small</value>
+      <value>FerriteChip</value>
       <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
       <description>Inductor, small symbol</description>
       <fields>
+        <field name="Manufacturer_Part_Number">BLM21BD601SN1D </field>
+        <field name="UST_ID">64ab338c76c82a1d3b578872</field>
         <field name="Footprint">Inductor_SMD:L_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Inductor, small symbol</field>
       </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Manufacturer_Part_Number" value="BLM21BD601SN1D "/>
+      <property name="UST_ID" value="64ab338c76c82a1d3b578872"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
@@ -568,15 +700,17 @@
       <tstamps>f735d3a6-4d8d-4744-aaf0-22ea55c44fe7</tstamps>
     </comp>
     <comp ref="NT1">
-      <value>NetTie_2</value>
+      <value>tie</value>
       <footprint>NetTie:NetTie-2_SMD_Pad0.5mm</footprint>
       <description>Net tie, 2 pins</description>
       <fields>
+        <field name="UST_ID">-</field>
         <field name="Footprint">NetTie:NetTie-2_SMD_Pad0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Net tie, 2 pins</field>
       </fields>
       <libsource lib="Device" part="NetTie_2" description="Net tie, 2 pins"/>
+      <property name="UST_ID" value="-"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="exclude_from_bom"/>
@@ -586,15 +720,17 @@
       <tstamps>0efc7769-848e-41e5-bbff-098460cd8582</tstamps>
     </comp>
     <comp ref="NT2">
-      <value>NetTie_2</value>
+      <value>tie</value>
       <footprint>NetTie:NetTie-2_SMD_Pad0.5mm</footprint>
       <description>Net tie, 2 pins</description>
       <fields>
+        <field name="UST_ID">-</field>
         <field name="Footprint">NetTie:NetTie-2_SMD_Pad0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Net tie, 2 pins</field>
       </fields>
       <libsource lib="Device" part="NetTie_2" description="Net tie, 2 pins"/>
+      <property name="UST_ID" value="-"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="exclude_from_bom"/>
@@ -604,15 +740,17 @@
       <tstamps>262a80b4-bc00-47b2-be90-f2f23696071a</tstamps>
     </comp>
     <comp ref="NT3">
-      <value>NetTie_2</value>
+      <value>tie</value>
       <footprint>NetTie:NetTie-2_SMD_Pad0.5mm</footprint>
       <description>Net tie, 2 pins</description>
       <fields>
+        <field name="UST_ID">-</field>
         <field name="Footprint">NetTie:NetTie-2_SMD_Pad0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Net tie, 2 pins</field>
       </fields>
       <libsource lib="Device" part="NetTie_2" description="Net tie, 2 pins"/>
+      <property name="UST_ID" value="-"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="exclude_from_bom"/>
@@ -622,15 +760,17 @@
       <tstamps>b2b72e06-1a32-4054-ab25-0364e7440902</tstamps>
     </comp>
     <comp ref="NT4">
-      <value>NetTie_2</value>
+      <value>tie</value>
       <footprint>NetTie:NetTie-2_SMD_Pad0.5mm</footprint>
       <description>Net tie, 2 pins</description>
       <fields>
+        <field name="UST_ID">-</field>
         <field name="Footprint">NetTie:NetTie-2_SMD_Pad0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Net tie, 2 pins</field>
       </fields>
       <libsource lib="Device" part="NetTie_2" description="Net tie, 2 pins"/>
+      <property name="UST_ID" value="-"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="exclude_from_bom"/>
@@ -640,15 +780,17 @@
       <tstamps>13ff974c-eb21-4cfa-bee8-21500b4e5593</tstamps>
     </comp>
     <comp ref="NT5">
-      <value>NetTie_2</value>
+      <value>tie</value>
       <footprint>NetTie:NetTie-2_SMD_Pad0.5mm</footprint>
       <description>Net tie, 2 pins</description>
       <fields>
+        <field name="UST_ID">-</field>
         <field name="Footprint">NetTie:NetTie-2_SMD_Pad0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Net tie, 2 pins</field>
       </fields>
       <libsource lib="Device" part="NetTie_2" description="Net tie, 2 pins"/>
+      <property name="UST_ID" value="-"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="exclude_from_bom"/>
@@ -658,15 +800,17 @@
       <tstamps>c555a8de-2f4a-40ea-84c9-dbca8aa121cc</tstamps>
     </comp>
     <comp ref="NT6">
-      <value>NetTie_2</value>
+      <value>tie</value>
       <footprint>NetTie:NetTie-2_SMD_Pad0.5mm</footprint>
       <description>Net tie, 2 pins</description>
       <fields>
+        <field name="UST_ID">-</field>
         <field name="Footprint">NetTie:NetTie-2_SMD_Pad0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Net tie, 2 pins</field>
       </fields>
       <libsource lib="Device" part="NetTie_2" description="Net tie, 2 pins"/>
+      <property name="UST_ID" value="-"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="exclude_from_bom"/>
@@ -676,15 +820,17 @@
       <tstamps>1b322d17-3069-4327-a98d-674bc772f020</tstamps>
     </comp>
     <comp ref="NT7">
-      <value>NetTie_2</value>
+      <value>tie</value>
       <footprint>NetTie:NetTie-2_SMD_Pad0.5mm</footprint>
       <description>Net tie, 2 pins</description>
       <fields>
+        <field name="UST_ID">-</field>
         <field name="Footprint">NetTie:NetTie-2_SMD_Pad0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">Net tie, 2 pins</field>
       </fields>
       <libsource lib="Device" part="NetTie_2" description="Net tie, 2 pins"/>
+      <property name="UST_ID" value="-"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="exclude_from_bom"/>
@@ -694,18 +840,20 @@
       <tstamps>464417e5-2dc1-438f-a570-4060509710b6</tstamps>
     </comp>
     <comp ref="Q1">
-      <value>MT31M7LPS</value>
+      <value>DMT31M7LPS</value>
       <footprint>Mlab_IO:PowerDI5060-8</footprint>
       <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</datasheet>
       <description>N-MOSFET transistor, source/gate/drain</description>
       <fields>
-        <field name="UST_ID"/>
+        <field name="UST_ID">669990696fdfe6f54e2eb28a</field>
+        <field name="Manufacturer_Part_Number"> DMT31M7LPS-13</field>
         <field name="Footprint">Mlab_IO:PowerDI5060-8</field>
         <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</field>
         <field name="Description">N-MOSFET transistor, source/gate/drain</field>
       </fields>
       <libsource lib="Device" part="Q_NMOS_SGD" description="N-MOSFET transistor, source/gate/drain"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="669990696fdfe6f54e2eb28a"/>
+      <property name="Manufacturer_Part_Number" value=" DMT31M7LPS-13"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
@@ -713,18 +861,20 @@
       <tstamps>62b8f884-e528-4ca2-a07f-b868cad1aa0b</tstamps>
     </comp>
     <comp ref="Q2">
-      <value>MT31M7LPS</value>
+      <value>DMT31M7LPS</value>
       <footprint>Mlab_IO:PowerDI5060-8</footprint>
       <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</datasheet>
       <description>N-MOSFET transistor, source/gate/drain</description>
       <fields>
-        <field name="UST_ID"/>
+        <field name="UST_ID">669990696fdfe6f54e2eb28a</field>
+        <field name="Manufacturer_Part_Number"> DMT31M7LPS-13</field>
         <field name="Footprint">Mlab_IO:PowerDI5060-8</field>
         <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</field>
         <field name="Description">N-MOSFET transistor, source/gate/drain</field>
       </fields>
       <libsource lib="Device" part="Q_NMOS_SGD" description="N-MOSFET transistor, source/gate/drain"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="669990696fdfe6f54e2eb28a"/>
+      <property name="Manufacturer_Part_Number" value=" DMT31M7LPS-13"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
@@ -732,16 +882,20 @@
       <tstamps>115de98a-f6b1-44c5-abb2-cc581c2ba7d8</tstamps>
     </comp>
     <comp ref="Q3">
-      <value>MT31M7LPS</value>
+      <value>DMT31M7LPS</value>
       <footprint>Mlab_IO:PowerDI5060-8</footprint>
       <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</datasheet>
       <description>N-MOSFET transistor, source/gate/drain</description>
       <fields>
+        <field name="Manufacturer_Part_Number"> DMT31M7LPS-13</field>
+        <field name="UST_ID">669990696fdfe6f54e2eb28a</field>
         <field name="Footprint">Mlab_IO:PowerDI5060-8</field>
         <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</field>
         <field name="Description">N-MOSFET transistor, source/gate/drain</field>
       </fields>
       <libsource lib="Device" part="Q_NMOS_SGD" description="N-MOSFET transistor, source/gate/drain"/>
+      <property name="Manufacturer_Part_Number" value=" DMT31M7LPS-13"/>
+      <property name="UST_ID" value="669990696fdfe6f54e2eb28a"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
@@ -749,16 +903,20 @@
       <tstamps>fad46200-5ff2-48f5-8e4b-e7295bcd2f09</tstamps>
     </comp>
     <comp ref="Q4">
-      <value>MT31M7LPS</value>
+      <value>DMT31M7LPS</value>
       <footprint>Mlab_IO:PowerDI5060-8</footprint>
       <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</datasheet>
       <description>N-MOSFET transistor, source/gate/drain</description>
       <fields>
+        <field name="Manufacturer_Part_Number"> DMT31M7LPS-13</field>
+        <field name="UST_ID">669990696fdfe6f54e2eb28a</field>
         <field name="Footprint">Mlab_IO:PowerDI5060-8</field>
         <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</field>
         <field name="Description">N-MOSFET transistor, source/gate/drain</field>
       </fields>
       <libsource lib="Device" part="Q_NMOS_SGD" description="N-MOSFET transistor, source/gate/drain"/>
+      <property name="Manufacturer_Part_Number" value=" DMT31M7LPS-13"/>
+      <property name="UST_ID" value="669990696fdfe6f54e2eb28a"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
@@ -766,16 +924,20 @@
       <tstamps>f6a4572f-8fc5-40f6-934b-cfddc843006a</tstamps>
     </comp>
     <comp ref="Q5">
-      <value>MT31M7LPS</value>
+      <value>DMT31M7LPS</value>
       <footprint>Mlab_IO:PowerDI5060-8</footprint>
       <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</datasheet>
       <description>N-MOSFET transistor, source/gate/drain</description>
       <fields>
+        <field name="Manufacturer_Part_Number"> DMT31M7LPS-13</field>
+        <field name="UST_ID">669990696fdfe6f54e2eb28a</field>
         <field name="Footprint">Mlab_IO:PowerDI5060-8</field>
         <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</field>
         <field name="Description">N-MOSFET transistor, source/gate/drain</field>
       </fields>
       <libsource lib="Device" part="Q_NMOS_SGD" description="N-MOSFET transistor, source/gate/drain"/>
+      <property name="Manufacturer_Part_Number" value=" DMT31M7LPS-13"/>
+      <property name="UST_ID" value="669990696fdfe6f54e2eb28a"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
@@ -783,16 +945,20 @@
       <tstamps>2795b3db-4edf-4358-986d-a405d56c7b8f</tstamps>
     </comp>
     <comp ref="Q6">
-      <value>MT31M7LPS</value>
+      <value>DMT31M7LPS</value>
       <footprint>Mlab_IO:PowerDI5060-8</footprint>
       <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</datasheet>
       <description>N-MOSFET transistor, source/gate/drain</description>
       <fields>
+        <field name="Manufacturer_Part_Number"> DMT31M7LPS-13</field>
+        <field name="UST_ID">669990696fdfe6f54e2eb28a</field>
         <field name="Footprint">Mlab_IO:PowerDI5060-8</field>
         <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</field>
         <field name="Description">N-MOSFET transistor, source/gate/drain</field>
       </fields>
       <libsource lib="Device" part="Q_NMOS_SGD" description="N-MOSFET transistor, source/gate/drain"/>
+      <property name="Manufacturer_Part_Number" value=" DMT31M7LPS-13"/>
+      <property name="UST_ID" value="669990696fdfe6f54e2eb28a"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
@@ -800,15 +966,17 @@
       <tstamps>90d79ca2-9f2a-4263-8364-12eeaa9c8fb1</tstamps>
     </comp>
     <comp ref="R1">
-      <value>R_Small</value>
+      <value>1k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <description>Resistor, small symbol</description>
       <fields>
+        <field name="UST_ID">5c70984512875079b91f895c</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="5c70984512875079b91f895c"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -817,15 +985,17 @@
       <tstamps>62d9d0c6-8b47-4707-8456-7c541e2b8921</tstamps>
     </comp>
     <comp ref="R2">
-      <value>R_Small</value>
+      <value>75R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <description>Resistor, small symbol</description>
       <fields>
+        <field name="UST_ID">5c70984512875079b91f8954</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="5c70984512875079b91f8954"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -838,11 +1008,13 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <description>Resistor, small symbol</description>
       <fields>
+        <field name="UST_ID">628d1404dc56076e9a223650</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="628d1404dc56076e9a223650"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -855,11 +1027,13 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <description>Resistor, small symbol</description>
       <fields>
+        <field name="UST_ID">628d1404dc56076e9a223650</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="628d1404dc56076e9a223650"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -868,15 +1042,17 @@
       <tstamps>4dbab158-4720-44ee-a5d9-604938b8367c</tstamps>
     </comp>
     <comp ref="R5">
-      <value>R_Small</value>
+      <value>33R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <description>Resistor, small symbol</description>
       <fields>
+        <field name="UST_ID">5c70984512875079b91f8952</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="5c70984512875079b91f8952"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -889,11 +1065,13 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <description>Resistor, small symbol</description>
       <fields>
+        <field name="UST_ID">628d1404dc56076e9a223650</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="628d1404dc56076e9a223650"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -906,11 +1084,13 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <description>Resistor, small symbol</description>
       <fields>
+        <field name="UST_ID">628d1404dc56076e9a223650</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="628d1404dc56076e9a223650"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -923,11 +1103,13 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <description>Resistor, small symbol</description>
       <fields>
+        <field name="UST_ID">628d1404dc56076e9a223650</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="628d1404dc56076e9a223650"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -936,15 +1118,17 @@
       <tstamps>e61ee186-14ad-41cb-bb17-302b5cd1bbab</tstamps>
     </comp>
     <comp ref="R9">
-      <value>R_Small</value>
+      <value>120R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <description>Resistor, small symbol</description>
       <fields>
+        <field name="UST_ID">5c70984712875079b91f8b86</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b86"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -957,11 +1141,13 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <description>Resistor, small symbol</description>
       <fields>
+        <field name="UST_ID">5c70984512875079b91f894f</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="5c70984512875079b91f894f"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -974,11 +1160,13 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <description>Resistor, small symbol</description>
       <fields>
+        <field name="UST_ID">5c70984512875079b91f894f</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="5c70984512875079b91f894f"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -991,11 +1179,13 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <description>Resistor, small symbol</description>
       <fields>
+        <field name="UST_ID">5c70984512875079b91f894f</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="5c70984512875079b91f894f"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -1008,11 +1198,13 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <description>Resistor, small symbol</description>
       <fields>
+        <field name="UST_ID">5c70984512875079b91f894f</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="5c70984512875079b91f894f"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -1025,11 +1217,13 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <description>Resistor, small symbol</description>
       <fields>
+        <field name="UST_ID">5c70984512875079b91f894f</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="5c70984512875079b91f894f"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -1042,11 +1236,13 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <description>Resistor, small symbol</description>
       <fields>
+        <field name="UST_ID">5c70984512875079b91f894f</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="5c70984512875079b91f894f"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -1059,11 +1255,13 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <description>Resistor, small symbol</description>
       <fields>
+        <field name="UST_ID">628d1404dc56076e9a223650</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="628d1404dc56076e9a223650"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -1076,11 +1274,13 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <description>Resistor, small symbol</description>
       <fields>
+        <field name="UST_ID">628d1404dc56076e9a223650</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="628d1404dc56076e9a223650"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -1089,15 +1289,17 @@
       <tstamps>8a2853e5-226c-48ba-984c-ee0ff81f9881</tstamps>
     </comp>
     <comp ref="R18">
-      <value>50k</value>
+      <value>47k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <description>Resistor, small symbol</description>
       <fields>
+        <field name="UST_ID">5c70984712875079b91f8b6e</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b6e"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -1106,15 +1308,17 @@
       <tstamps>5f87219d-11a2-407f-915a-d7687be59a48</tstamps>
     </comp>
     <comp ref="R19">
-      <value>50k</value>
+      <value>47k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <description>Resistor, small symbol</description>
       <fields>
+        <field name="UST_ID">5c70984712875079b91f8b6e</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b6e"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -1123,15 +1327,17 @@
       <tstamps>27e4595a-a76c-457d-876d-2e97a23ec956</tstamps>
     </comp>
     <comp ref="R20">
-      <value>50k</value>
+      <value>47k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <description>Resistor, small symbol</description>
       <fields>
+        <field name="UST_ID">5c70984712875079b91f8b6e</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b6e"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -1140,15 +1346,17 @@
       <tstamps>003c27f5-f577-4282-ac2b-cdbfdd3f6a3c</tstamps>
     </comp>
     <comp ref="R21">
-      <value>50k</value>
+      <value>47k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <description>Resistor, small symbol</description>
       <fields>
+        <field name="UST_ID">5c70984712875079b91f8b6e</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b6e"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -1157,15 +1365,17 @@
       <tstamps>a34b7a34-e933-44fd-bccc-3750b5eccf9d</tstamps>
     </comp>
     <comp ref="R22">
-      <value>50k</value>
+      <value>47k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <description>Resistor, small symbol</description>
       <fields>
+        <field name="UST_ID">5c70984712875079b91f8b6e</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b6e"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -1174,15 +1384,17 @@
       <tstamps>d2bd52be-79fc-44e7-9bee-42984e6778a1</tstamps>
     </comp>
     <comp ref="R23">
-      <value>50k</value>
+      <value>47k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <description>Resistor, small symbol</description>
       <fields>
+        <field name="UST_ID">5c70984712875079b91f8b6e</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b6e"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -1191,15 +1403,19 @@
       <tstamps>d21914cd-739b-4364-93b1-b65a4f8a297b</tstamps>
     </comp>
     <comp ref="R_SENSE1">
-      <value>R</value>
+      <value>0R01</value>
       <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
       <description>Resistor</description>
       <fields>
+        <field name="Manufacturer_Part_Number">WW25NR010FTL</field>
+        <field name="UST_ID">5c70984712875079b91f8abf</field>
         <field name="Footprint">Resistor_SMD:R_2512_6332Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="WW25NR010FTL"/>
+      <property name="UST_ID" value="5c70984712875079b91f8abf"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1212,13 +1428,13 @@
       <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
       <description>test point</description>
       <fields>
-        <field name="UST_ID"/>
+        <field name="UST_ID">-</field>
         <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
         <field name="Datasheet"/>
         <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="-"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="test point tp"/>
@@ -1570,6 +1786,20 @@
         <pin num="37" name="GND_2" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Fiducial Marker</field>
+      </fields>
+    </libpart>
     <libpart lib="Regulator_Linear" part="MIC5504-3.3YM5">
       <description>300mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23</description>
       <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf</docs>
@@ -1598,6 +1828,9 @@
     </library>
     <library logical="Device">
       <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
     </library>
     <library logical="Regulator_Linear">
       <uri>/usr/share/kicad/symbols//Regulator_Linear.kicad_sym</uri>

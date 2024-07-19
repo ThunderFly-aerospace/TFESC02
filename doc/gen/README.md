@@ -65,8 +65,8 @@ Eurocircuits class: 6F
 
 Components count: (SMD/THT)
 
-- Top: 60/2 (SMD + THT)
-- Bottom: 0/0 (NONE)
+- Top: 62/2 (SMD + THT)
+- Bottom: 2/0 (SMD)
 
 Defined tracks:
 
