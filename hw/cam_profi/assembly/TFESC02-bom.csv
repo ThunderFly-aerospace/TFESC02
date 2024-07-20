@@ -20,7 +20,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 19,1x08 2.54 mm pitch header,SM08B-GHS-TB,J4,SM08B-GHS-TB,JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal,1,,5fa0f75012875025b3977948,,,
 20,,XT30PW-M,J3,XT30PW-M,AMASS_XT30PW-M_1x02_P2.50mm_Horizontal,1,,5c70984812875079b91f8ba8,,,
 21,"Inductor, small symbol",L_Small,L1,FerriteChip,L_0805_2012Metric,1,~,64ab338c76c82a1d3b578872,,,BLM21BD601SN1D
-22,"N-MOSFET transistor, source/gate/drain",Q_NMOS_SGD,Q1Q2Q3Q4Q5Q6,DMT31M7LPS,PowerDI5060-8,6,https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf,669990696fdfe6f54e2eb28a,,,DMT31M7LPS-13
+22,"N-MOSFET transistor, source/gate/drain",Q_NMOS_SGD,Q1Q2Q3Q4Q5Q6,DMT31M7LPS,D_POWERDI5060-8_6.0x5.1mm_P1.27mm,6,https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf,669990696fdfe6f54e2eb28a,,,DMT31M7LPS-13
 23,Resistor,R,R_SENSE1,0R01,R_2512_6332Metric,1,~,5c70984712875079b91f8abf,,,WW25NR010FTL
 24,"Resistor, small symbol",R_Small,R10R11R12R13R14R15,10R,R_0603_1608Metric,6,~,5c70984512875079b91f894f,,,
 25,"Resistor, small symbol",R_Small,R5,33R,R_0603_1608Metric,1,~,5c70984512875079b91f8952,,,

@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFESC02.kicad_sch</source>
-    <date>2024-07-20T14:58:50+0000</date>
+    <date>2024-07-20T17:51:43+0000</date>
     <tool>Eeschema 8.0.3+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -841,13 +841,13 @@
     </comp>
     <comp ref="Q1">
       <value>DMT31M7LPS</value>
-      <footprint>Mlab_IO:PowerDI5060-8</footprint>
+      <footprint>Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</footprint>
       <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</datasheet>
       <description>N-MOSFET transistor, source/gate/drain</description>
       <fields>
         <field name="UST_ID">669990696fdfe6f54e2eb28a</field>
         <field name="Manufacturer_Part_Number"> DMT31M7LPS-13</field>
-        <field name="Footprint">Mlab_IO:PowerDI5060-8</field>
+        <field name="Footprint">Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</field>
         <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</field>
         <field name="Description">N-MOSFET transistor, source/gate/drain</field>
       </fields>
@@ -862,13 +862,13 @@
     </comp>
     <comp ref="Q2">
       <value>DMT31M7LPS</value>
-      <footprint>Mlab_IO:PowerDI5060-8</footprint>
+      <footprint>Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</footprint>
       <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</datasheet>
       <description>N-MOSFET transistor, source/gate/drain</description>
       <fields>
         <field name="UST_ID">669990696fdfe6f54e2eb28a</field>
         <field name="Manufacturer_Part_Number"> DMT31M7LPS-13</field>
-        <field name="Footprint">Mlab_IO:PowerDI5060-8</field>
+        <field name="Footprint">Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</field>
         <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</field>
         <field name="Description">N-MOSFET transistor, source/gate/drain</field>
       </fields>
@@ -883,13 +883,13 @@
     </comp>
     <comp ref="Q3">
       <value>DMT31M7LPS</value>
-      <footprint>Mlab_IO:PowerDI5060-8</footprint>
+      <footprint>Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</footprint>
       <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</datasheet>
       <description>N-MOSFET transistor, source/gate/drain</description>
       <fields>
         <field name="Manufacturer_Part_Number"> DMT31M7LPS-13</field>
         <field name="UST_ID">669990696fdfe6f54e2eb28a</field>
-        <field name="Footprint">Mlab_IO:PowerDI5060-8</field>
+        <field name="Footprint">Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</field>
         <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</field>
         <field name="Description">N-MOSFET transistor, source/gate/drain</field>
       </fields>
@@ -904,13 +904,13 @@
     </comp>
     <comp ref="Q4">
       <value>DMT31M7LPS</value>
-      <footprint>Mlab_IO:PowerDI5060-8</footprint>
+      <footprint>Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</footprint>
       <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</datasheet>
       <description>N-MOSFET transistor, source/gate/drain</description>
       <fields>
         <field name="Manufacturer_Part_Number"> DMT31M7LPS-13</field>
         <field name="UST_ID">669990696fdfe6f54e2eb28a</field>
-        <field name="Footprint">Mlab_IO:PowerDI5060-8</field>
+        <field name="Footprint">Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</field>
         <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</field>
         <field name="Description">N-MOSFET transistor, source/gate/drain</field>
       </fields>
@@ -925,13 +925,13 @@
     </comp>
     <comp ref="Q5">
       <value>DMT31M7LPS</value>
-      <footprint>Mlab_IO:PowerDI5060-8</footprint>
+      <footprint>Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</footprint>
       <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</datasheet>
       <description>N-MOSFET transistor, source/gate/drain</description>
       <fields>
         <field name="Manufacturer_Part_Number"> DMT31M7LPS-13</field>
         <field name="UST_ID">669990696fdfe6f54e2eb28a</field>
-        <field name="Footprint">Mlab_IO:PowerDI5060-8</field>
+        <field name="Footprint">Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</field>
         <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</field>
         <field name="Description">N-MOSFET transistor, source/gate/drain</field>
       </fields>
@@ -946,13 +946,13 @@
     </comp>
     <comp ref="Q6">
       <value>DMT31M7LPS</value>
-      <footprint>Mlab_IO:PowerDI5060-8</footprint>
+      <footprint>Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</footprint>
       <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</datasheet>
       <description>N-MOSFET transistor, source/gate/drain</description>
       <fields>
         <field name="Manufacturer_Part_Number"> DMT31M7LPS-13</field>
         <field name="UST_ID">669990696fdfe6f54e2eb28a</field>
-        <field name="Footprint">Mlab_IO:PowerDI5060-8</field>
+        <field name="Footprint">Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</field>
         <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</field>
         <field name="Description">N-MOSFET transistor, source/gate/drain</field>
       </fields>
