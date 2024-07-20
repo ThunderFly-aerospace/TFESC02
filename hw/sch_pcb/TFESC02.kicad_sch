@@ -8442,7 +8442,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Mlab_IO:PowerDI5060-8"
+		(property "Footprint" "Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm"
 			(at 259.08 45.72 0)
 			(effects
 				(font
@@ -9259,7 +9259,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Mlab_IO:PowerDI5060-8"
+		(property "Footprint" "Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm"
 			(at 259.08 107.95 0)
 			(effects
 				(font
@@ -11357,7 +11357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Mlab_IO:PowerDI5060-8"
+		(property "Footprint" "Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm"
 			(at 259.08 31.75 0)
 			(effects
 				(font
@@ -13027,7 +13027,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Mlab_IO:PowerDI5060-8"
+		(property "Footprint" "Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm"
 			(at 259.08 121.92 0)
 			(effects
 				(font
@@ -15979,7 +15979,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Mlab_IO:PowerDI5060-8"
+		(property "Footprint" "Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm"
 			(at 259.08 83.82 0)
 			(effects
 				(font
@@ -16301,7 +16301,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Mlab_IO:PowerDI5060-8"
+		(property "Footprint" "Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm"
 			(at 259.08 69.85 0)
 			(effects
 				(font
