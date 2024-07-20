@@ -16,7 +16,7 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "C15","100n, 25V","C_0603_1608Metric",132.1000,-122.8000,0.0000,top
 "C16","100n, 25V","C_0603_1608Metric",160.3750,-123.4000,0.0000,top
 "C17","100p","C_0603_1608Metric",143.7250,-132.5000,-90.0000,top
-"C18","100u, 25V","TantalC_SizeC_Reflow",132.3879,-128.7269,0.0000,top
+"C18","100u, 25V","TantalC_SizeC_Reflow",132.3879,-128.5240,0.0000,top
 "C19","10u, 25V","C_1206_3216Metric",126.1000,-131.9250,180.0000,top
 "C20","100u, 25V","TantalC_SizeC_Reflow",132.4000,-131.7250,0.0000,top
 "D1","YELLOW","LED_0603_1608Metric",166.0000,-147.1000,90.0000,top
