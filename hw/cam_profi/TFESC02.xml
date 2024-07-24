@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFESC02.kicad_sch</source>
-    <date>2024-07-24T15:34:21+0000</date>
+    <date>2024-07-24T15:49:34+0000</date>
     <tool>Eeschema 8.0.3+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -80,7 +80,7 @@
       <tstamps>2a8bece3-d00f-4b05-a2a5-81ce9fdaede3</tstamps>
     </comp>
     <comp ref="C4">
-      <value>470n</value>
+      <value>470nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
@@ -159,13 +159,13 @@
       <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
-        <field name="UST_ID">669997d16fdfe6f54e2eb335</field>
+        <field name="UST_ID">607c0671128750769ee58c7f</field>
         <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="UST_ID" value="669997d16fdfe6f54e2eb335"/>
+      <property name="UST_ID" value="607c0671128750769ee58c7f"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -269,17 +269,17 @@
       <tstamps>e830b464-6767-4c15-ac38-009243b709ba</tstamps>
     </comp>
     <comp ref="C14">
-      <value>680nF, 25V</value>
+      <value>470nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
-        <field name="UST_ID">64c7d8bd76c82a1d3b579273</field>
+        <field name="UST_ID">5c70984712875079b91f8b4f</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="UST_ID" value="64c7d8bd76c82a1d3b579273"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b4f"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -288,17 +288,17 @@
       <tstamps>a1748856-7398-49be-b35f-02b66b9c98ae</tstamps>
     </comp>
     <comp ref="C15">
-      <value>680nF, 25V</value>
+      <value>470nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
-        <field name="UST_ID">64c7d8bd76c82a1d3b579273</field>
+        <field name="UST_ID">5c70984712875079b91f8b4f</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="UST_ID" value="64c7d8bd76c82a1d3b579273"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b4f"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -307,17 +307,17 @@
       <tstamps>0f854d61-6a3b-4634-9445-d5795a958130</tstamps>
     </comp>
     <comp ref="C16">
-      <value>680nF, 25V</value>
+      <value>470nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
-        <field name="UST_ID">64c7d8bd76c82a1d3b579273</field>
+        <field name="UST_ID">5c70984712875079b91f8b4f</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="UST_ID" value="64c7d8bd76c82a1d3b579273"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b4f"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
