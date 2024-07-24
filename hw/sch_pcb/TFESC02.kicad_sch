@@ -8171,7 +8171,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "680nF, 25V"
+		(property "Value" "470nF"
 			(at 275.844 45.72 0)
 			(effects
 				(font
@@ -8207,7 +8207,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "64c7d8bd76c82a1d3b579273"
+		(property "UST_ID" "5c70984712875079b91f8b4f"
 			(at 275.59 40.64 0)
 			(effects
 				(font
@@ -9837,7 +9837,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "669997d16fdfe6f54e2eb335"
+		(property "UST_ID" "607c0671128750769ee58c7f"
 			(at 91.44 88.9 0)
 			(effects
 				(font
@@ -11982,7 +11982,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470n"
+		(property "Value" "470nF"
 			(at 73.66 106.6862 0)
 			(effects
 				(font
@@ -12482,7 +12482,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "680nF, 25V"
+		(property "Value" "470nF"
 			(at 275.844 121.666 0)
 			(effects
 				(font
@@ -12518,7 +12518,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "64c7d8bd76c82a1d3b579273"
+		(property "UST_ID" "5c70984712875079b91f8b4f"
 			(at 275.59 116.84 0)
 			(effects
 				(font
@@ -13475,7 +13475,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "680nF, 25V"
+		(property "Value" "470nF"
 			(at 275.844 83.82 0)
 			(effects
 				(font
@@ -13511,7 +13511,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "64c7d8bd76c82a1d3b579273"
+		(property "UST_ID" "5c70984712875079b91f8b4f"
 			(at 275.59 78.74 0)
 			(effects
 				(font
