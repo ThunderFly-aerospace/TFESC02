@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFESC02.kicad_sch</source>
-    <date>2024-07-20T17:51:43+0000</date>
+    <date>2024-07-24T15:34:21+0000</date>
     <tool>Eeschema 8.0.3+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -61,17 +61,17 @@
       <tstamps>fbf0c6f3-0a4a-4012-b14b-d62981705bda</tstamps>
     </comp>
     <comp ref="C3">
-      <value>100n, 25V</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8bf2</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="UST_ID">5c70984712875079b91f8b4c</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -81,16 +81,16 @@
     </comp>
     <comp ref="C4">
       <value>470n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
-        <field name="UST_ID">5dad50c1128750448eca18c6</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="UST_ID">5c70984712875079b91f8b4f</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="UST_ID" value="5dad50c1128750448eca18c6"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b4f"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -117,17 +117,17 @@
       <tstamps>dacc119b-ed63-484a-a15f-3dcc041b7367</tstamps>
     </comp>
     <comp ref="C6">
-      <value>10u, 25V</value>
+      <value>10uF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
-        <field name="UST_ID">669997d16fdfe6f54e2eb335</field>
+        <field name="UST_ID">607c0671128750769ee58c7f</field>
         <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="UST_ID" value="669997d16fdfe6f54e2eb335"/>
+      <property name="UST_ID" value="607c0671128750769ee58c7f"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -155,12 +155,12 @@
       <tstamps>7c211595-b18c-4694-92f6-77e1e4ccaac3</tstamps>
     </comp>
     <comp ref="C8">
-      <value>10u, 25V</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
         <field name="UST_ID">669997d16fdfe6f54e2eb335</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
@@ -269,17 +269,17 @@
       <tstamps>e830b464-6767-4c15-ac38-009243b709ba</tstamps>
     </comp>
     <comp ref="C14">
-      <value>100n, 25V</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <value>680nF, 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8bf2</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="UST_ID">64c7d8bd76c82a1d3b579273</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
+      <property name="UST_ID" value="64c7d8bd76c82a1d3b579273"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -288,17 +288,17 @@
       <tstamps>a1748856-7398-49be-b35f-02b66b9c98ae</tstamps>
     </comp>
     <comp ref="C15">
-      <value>100n, 25V</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <value>680nF, 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8bf2</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="UST_ID">64c7d8bd76c82a1d3b579273</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
+      <property name="UST_ID" value="64c7d8bd76c82a1d3b579273"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -307,17 +307,17 @@
       <tstamps>0f854d61-6a3b-4634-9445-d5795a958130</tstamps>
     </comp>
     <comp ref="C16">
-      <value>100n, 25V</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <value>680nF, 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8bf2</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="UST_ID">64c7d8bd76c82a1d3b579273</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
+      <property name="UST_ID" value="64c7d8bd76c82a1d3b579273"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -364,17 +364,17 @@
       <tstamps>5c606866-f8b1-43ea-a2e9-e161c3b950e9</tstamps>
     </comp>
     <comp ref="C19">
-      <value>10u, 25V</value>
+      <value>10uF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
-        <field name="UST_ID">669997d16fdfe6f54e2eb335</field>
+        <field name="UST_ID">607c0671128750769ee58c7f</field>
         <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="UST_ID" value="669997d16fdfe6f54e2eb335"/>
+      <property name="UST_ID" value="607c0671128750769ee58c7f"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -400,6 +400,25 @@
       <property name="ki_fp_filters" value="CP_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e8ea035e-0e64-40e4-a890-2f9b1bfb17ae</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8b6f</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b6f"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFESC02.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>adb53171-1251-401f-b2ad-eac7df9e0e83</tstamps>
     </comp>
     <comp ref="D1">
       <value>YELLOW</value>
@@ -840,15 +859,15 @@
       <tstamps>464417e5-2dc1-438f-a570-4060509710b6</tstamps>
     </comp>
     <comp ref="Q1">
-      <value>DMT31M7LPS</value>
+      <value>DMTH3002LPS-13</value>
       <footprint>Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</footprint>
-      <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</datasheet>
+      <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0003132884_1-2542222.pdf</datasheet>
       <description>N-MOSFET transistor, source/gate/drain</description>
       <fields>
         <field name="UST_ID">669990696fdfe6f54e2eb28a</field>
         <field name="Manufacturer_Part_Number"> DMT31M7LPS-13</field>
         <field name="Footprint">Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</field>
-        <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</field>
+        <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0003132884_1-2542222.pdf</field>
         <field name="Description">N-MOSFET transistor, source/gate/drain</field>
       </fields>
       <libsource lib="Device" part="Q_NMOS_SGD" description="N-MOSFET transistor, source/gate/drain"/>
@@ -861,15 +880,15 @@
       <tstamps>62b8f884-e528-4ca2-a07f-b868cad1aa0b</tstamps>
     </comp>
     <comp ref="Q2">
-      <value>DMT31M7LPS</value>
+      <value>DMTH3002LPS-13</value>
       <footprint>Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</footprint>
-      <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</datasheet>
+      <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0003132884_1-2542222.pdf</datasheet>
       <description>N-MOSFET transistor, source/gate/drain</description>
       <fields>
         <field name="UST_ID">669990696fdfe6f54e2eb28a</field>
         <field name="Manufacturer_Part_Number"> DMT31M7LPS-13</field>
         <field name="Footprint">Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</field>
-        <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</field>
+        <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0003132884_1-2542222.pdf</field>
         <field name="Description">N-MOSFET transistor, source/gate/drain</field>
       </fields>
       <libsource lib="Device" part="Q_NMOS_SGD" description="N-MOSFET transistor, source/gate/drain"/>
@@ -882,15 +901,15 @@
       <tstamps>115de98a-f6b1-44c5-abb2-cc581c2ba7d8</tstamps>
     </comp>
     <comp ref="Q3">
-      <value>DMT31M7LPS</value>
+      <value>DMTH3002LPS-13</value>
       <footprint>Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</footprint>
-      <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</datasheet>
+      <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0003132884_1-2542222.pdf</datasheet>
       <description>N-MOSFET transistor, source/gate/drain</description>
       <fields>
         <field name="Manufacturer_Part_Number"> DMT31M7LPS-13</field>
         <field name="UST_ID">669990696fdfe6f54e2eb28a</field>
         <field name="Footprint">Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</field>
-        <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</field>
+        <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0003132884_1-2542222.pdf</field>
         <field name="Description">N-MOSFET transistor, source/gate/drain</field>
       </fields>
       <libsource lib="Device" part="Q_NMOS_SGD" description="N-MOSFET transistor, source/gate/drain"/>
@@ -903,15 +922,15 @@
       <tstamps>fad46200-5ff2-48f5-8e4b-e7295bcd2f09</tstamps>
     </comp>
     <comp ref="Q4">
-      <value>DMT31M7LPS</value>
+      <value>DMTH3002LPS-13</value>
       <footprint>Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</footprint>
-      <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</datasheet>
+      <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0003132884_1-2542222.pdf</datasheet>
       <description>N-MOSFET transistor, source/gate/drain</description>
       <fields>
         <field name="Manufacturer_Part_Number"> DMT31M7LPS-13</field>
         <field name="UST_ID">669990696fdfe6f54e2eb28a</field>
         <field name="Footprint">Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</field>
-        <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</field>
+        <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0003132884_1-2542222.pdf</field>
         <field name="Description">N-MOSFET transistor, source/gate/drain</field>
       </fields>
       <libsource lib="Device" part="Q_NMOS_SGD" description="N-MOSFET transistor, source/gate/drain"/>
@@ -924,15 +943,15 @@
       <tstamps>f6a4572f-8fc5-40f6-934b-cfddc843006a</tstamps>
     </comp>
     <comp ref="Q5">
-      <value>DMT31M7LPS</value>
+      <value>DMTH3002LPS-13</value>
       <footprint>Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</footprint>
-      <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</datasheet>
+      <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0003132884_1-2542222.pdf</datasheet>
       <description>N-MOSFET transistor, source/gate/drain</description>
       <fields>
         <field name="Manufacturer_Part_Number"> DMT31M7LPS-13</field>
         <field name="UST_ID">669990696fdfe6f54e2eb28a</field>
         <field name="Footprint">Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</field>
-        <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</field>
+        <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0003132884_1-2542222.pdf</field>
         <field name="Description">N-MOSFET transistor, source/gate/drain</field>
       </fields>
       <libsource lib="Device" part="Q_NMOS_SGD" description="N-MOSFET transistor, source/gate/drain"/>
@@ -945,15 +964,15 @@
       <tstamps>2795b3db-4edf-4358-986d-a405d56c7b8f</tstamps>
     </comp>
     <comp ref="Q6">
-      <value>DMT31M7LPS</value>
+      <value>DMTH3002LPS-13</value>
       <footprint>Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</footprint>
-      <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</datasheet>
+      <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0003132884_1-2542222.pdf</datasheet>
       <description>N-MOSFET transistor, source/gate/drain</description>
       <fields>
         <field name="Manufacturer_Part_Number"> DMT31M7LPS-13</field>
         <field name="UST_ID">669990696fdfe6f54e2eb28a</field>
         <field name="Footprint">Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</field>
-        <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</field>
+        <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0003132884_1-2542222.pdf</field>
         <field name="Description">N-MOSFET transistor, source/gate/drain</field>
       </fields>
       <libsource lib="Device" part="Q_NMOS_SGD" description="N-MOSFET transistor, source/gate/drain"/>
@@ -1993,6 +2012,8 @@
     <net code="31" name="GNDD">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
@@ -2018,7 +2039,6 @@
       <node ref="C18" pin="2" pintype="passive"/>
       <node ref="C19" pin="2" pintype="passive"/>
       <node ref="C20" pin="2" pintype="passive"/>
-      <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="J3" pin="1" pinfunction="-" pintype="passive"/>
       <node ref="NT1" pin="1" pinfunction="1" pintype="passive"/>
@@ -2120,6 +2140,7 @@
       <node ref="C18" pin="1" pintype="passive"/>
       <node ref="C19" pin="1" pintype="passive"/>
       <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="IC1" pin="5" pinfunction="PVDD" pintype="passive"/>
