@@ -4693,6 +4693,12 @@
 		(uuid "21d63e75-0f3b-4fdb-bb1c-17dc9a8b5c94")
 	)
 	(junction
+		(at 92.71 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "240499b1-8b83-4c77-80ac-21067a76e26e")
+	)
+	(junction
 		(at 140.97 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4795,12 +4801,6 @@
 		(uuid "8c0e52ec-d62f-47a3-ba7d-eb018fd26033")
 	)
 	(junction
-		(at 88.9 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "93269b8f-04de-4805-a6ee-061a9690c0ca")
-	)
-	(junction
 		(at 245.11 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4817,6 +4817,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a16ae066-ac20-4fd8-a28c-a188e2ace4b5")
+	)
+	(junction
+		(at 86.36 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3de2a99-3a1e-4b20-a799-9feead354136")
 	)
 	(junction
 		(at 256.54 78.74)
@@ -5383,6 +5389,16 @@
 			(type default)
 		)
 		(uuid "427dab95-9e5b-42b5-9db1-b8929cd35de5")
+	)
+	(wire
+		(pts
+			(xy 92.71 76.2) (xy 107.95 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4436f14d-b09a-4609-9bd9-6049941c7186")
 	)
 	(wire
 		(pts
@@ -6056,7 +6072,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 76.2) (xy 88.9 76.2)
+			(xy 80.01 76.2) (xy 86.36 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6316,6 +6332,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 76.2) (xy 92.71 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c47e15e4-5068-4106-857f-e32b85094ca7")
+	)
+	(wire
+		(pts
 			(xy 256.54 53.34) (xy 275.59 53.34)
 		)
 		(stroke
@@ -6373,16 +6399,6 @@
 			(type solid)
 		)
 		(uuid "ca8a5e20-1d35-465a-9503-ed537a7e3815")
-	)
-	(wire
-		(pts
-			(xy 88.9 76.2) (xy 107.95 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd806f35-2f45-44d6-b5fe-f3fc59f31f36")
 	)
 	(wire
 		(pts
@@ -7521,73 +7537,6 @@
 			(project "TFESC02"
 				(path "/a84f7900-8c89-40c3-acdc-6ecbe186d39f"
 					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 88.9 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00a82af1-6eb3-4346-9f52-09d6ce10a8b5")
-		(property "Reference" "#PWR041"
-			(at 88.9 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 88.773 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 88.9 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aeff4722-a438-442a-a306-b4761962558f")
-		)
-		(instances
-			(project "TFESC02"
-				(path "/a84f7900-8c89-40c3-acdc-6ecbe186d39f"
-					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -9469,7 +9418,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 71.12 78.74 0)
+		(at 92.71 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9477,7 +9426,7 @@
 		(dnp no)
 		(uuid "2a8bece3-d00f-4b05-a2a5-81ce9fdaede3")
 		(property "Reference" "C3"
-			(at 73.66 77.4762 0)
+			(at 95.25 77.4762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9485,8 +9434,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n, 25V"
-			(at 66.04 82.55 90)
+		(property "Value" "100nF"
+			(at 88.9 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9494,8 +9443,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 71.12 78.74 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 92.71 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9504,7 +9453,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 78.74 0)
+			(at 92.71 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9513,7 +9462,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 71.12 78.74 0)
+			(at 92.71 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9521,8 +9470,8 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "5c70984812875079b91f8bf2"
-			(at 71.12 78.74 0)
+		(property "UST_ID" "5c70984712875079b91f8b4c"
+			(at 92.71 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9852,8 +9801,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u, 25V"
-			(at 80.01 90.17 0)
+		(property "Value" "10uF"
+			(at 83.82 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9861,7 +9810,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 91.44 88.9 0)
 			(effects
 				(font
@@ -11108,7 +11057,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 88.9 78.74 0)
+		(at 71.12 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11116,7 +11065,7 @@
 		(dnp no)
 		(uuid "5c606866-f8b1-43ea-a2e9-e161c3b950e9")
 		(property "Reference" "C18"
-			(at 90.678 77.724 0)
+			(at 72.898 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11125,7 +11074,7 @@
 			)
 		)
 		(property "Value" "100u, 25V"
-			(at 86.36 73.66 0)
+			(at 67.31 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11134,7 +11083,7 @@
 			)
 		)
 		(property "Footprint" "Mlab_C:TantalC_SizeC_Reflow"
-			(at 88.9 78.74 0)
+			(at 71.12 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11143,7 +11092,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 78.74 0)
+			(at 71.12 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11152,7 +11101,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 88.9 78.74 0)
+			(at 71.12 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11161,7 +11110,7 @@
 			)
 		)
 		(property "UST_ID" "5c70984412875079b91f886d"
-			(at 88.9 78.74 0)
+			(at 71.12 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11867,7 +11816,7 @@
 		(dnp no)
 		(uuid "6fc243d2-258a-4722-9bb6-f75b05888b81")
 		(property "Reference" "C6"
-			(at 82.55 77.4762 0)
+			(at 76.2 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12042,7 +11991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 71.12 105.41 0)
 			(effects
 				(font
@@ -12069,7 +12018,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "5dad50c1128750448eca18c6"
+		(property "UST_ID" "5c70984712875079b91f8b4f"
 			(at 71.12 105.41 0)
 			(effects
 				(font
@@ -12155,6 +12104,139 @@
 			(project "TFESC02"
 				(path "/a84f7900-8c89-40c3-acdc-6ecbe186d39f"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 86.36 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75e3e8ac-0198-4e19-87cd-f9e23536d91b")
+		(property "Reference" "#PWR041"
+			(at 86.36 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 86.36 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 86.36 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48c1a773-3137-4049-9683-d62fd8f47d7c")
+		)
+		(instances
+			(project "TFESC02"
+				(path "/a84f7900-8c89-40c3-acdc-6ecbe186d39f"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 92.71 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79764163-ac10-46a2-983f-2fb5d7654c21")
+		(property "Reference" "#PWR044"
+			(at 92.71 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 92.71 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 92.71 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0123cbef-3cf2-422c-afa2-48131efe2330")
+		)
+		(instances
+			(project "TFESC02"
+				(path "/a84f7900-8c89-40c3-acdc-6ecbe186d39f"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -13777,6 +13859,84 @@
 			(project "TFESC02"
 				(path "/a84f7900-8c89-40c3-acdc-6ecbe186d39f"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 86.36 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "adb53171-1251-401f-b2ad-eac7df9e0e83")
+		(property "Reference" "C21"
+			(at 86.36 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 82.55 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 86.36 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 86.36 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984712875079b91f8b6f"
+			(at 86.36 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cae5b6f9-dfbe-4b1a-9ca1-06b743258ebc")
+		)
+		(pin "2"
+			(uuid "e52b1193-940a-4a8f-bda7-9462461813b7")
+		)
+		(instances
+			(project "TFESC02"
+				(path "/a84f7900-8c89-40c3-acdc-6ecbe186d39f"
+					(reference "C21")
 					(unit 1)
 				)
 			)
