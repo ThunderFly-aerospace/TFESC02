@@ -8222,7 +8222,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n, 25V"
+		(property "Value" "680nF, 25V"
 			(at 275.844 45.72 0)
 			(effects
 				(font
@@ -8231,7 +8231,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 275.59 40.64 0)
 			(effects
 				(font
@@ -8258,7 +8258,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "5c70984812875079b91f8bf2"
+		(property "UST_ID" "64c7d8bd76c82a1d3b579273"
 			(at 275.59 40.64 0)
 			(effects
 				(font
@@ -8433,7 +8433,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DMT31M7LPS"
+		(property "Value" "DMTH3002LPS-13"
 			(at 260.35 49.5299 0)
 			(effects
 				(font
@@ -8451,7 +8451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/115/DIOD_S_A0003132884_1-2542222.pdf"
 			(at 254 48.26 0)
 			(effects
 				(font
@@ -9250,7 +9250,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DMT31M7LPS"
+		(property "Value" "DMTH3002LPS-13"
 			(at 260.35 111.7599 0)
 			(effects
 				(font
@@ -9268,7 +9268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/115/DIOD_S_A0003132884_1-2542222.pdf"
 			(at 254 110.49 0)
 			(effects
 				(font
@@ -9475,7 +9475,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2a8bece3-d00f-4b05-a2a5-81ce9fdaede3")
 		(property "Reference" "C3"
 			(at 73.66 77.4762 0)
@@ -9487,7 +9486,7 @@
 			)
 		)
 		(property "Value" "100n, 25V"
-			(at 73.66 80.0162 0)
+			(at 66.04 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11126,7 +11125,7 @@
 			)
 		)
 		(property "Value" "100u, 25V"
-			(at 90.678 80.01 0)
+			(at 86.36 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11348,7 +11347,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DMT31M7LPS"
+		(property "Value" "DMTH3002LPS-13"
 			(at 260.35 35.5599 0)
 			(effects
 				(font
@@ -11366,7 +11365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/115/DIOD_S_A0003132884_1-2542222.pdf"
 			(at 254 34.29 0)
 			(effects
 				(font
@@ -11866,7 +11865,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6fc243d2-258a-4722-9bb6-f75b05888b81")
 		(property "Reference" "C6"
 			(at 82.55 77.4762 0)
@@ -11877,8 +11875,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u, 25V"
-			(at 82.55 80.0162 0)
+		(property "Value" "10uF"
+			(at 76.2 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11913,7 +11911,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "669997d16fdfe6f54e2eb335"
+		(property "UST_ID" "607c0671128750769ee58c7f"
 			(at 80.01 78.74 0)
 			(effects
 				(font
@@ -12402,7 +12400,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n, 25V"
+		(property "Value" "680nF, 25V"
 			(at 275.844 121.666 0)
 			(effects
 				(font
@@ -12411,7 +12409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 275.59 116.84 0)
 			(effects
 				(font
@@ -12438,7 +12436,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "5c70984812875079b91f8bf2"
+		(property "UST_ID" "64c7d8bd76c82a1d3b579273"
 			(at 275.59 116.84 0)
 			(effects
 				(font
@@ -13018,7 +13016,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DMT31M7LPS"
+		(property "Value" "DMTH3002LPS-13"
 			(at 260.35 125.7299 0)
 			(effects
 				(font
@@ -13036,7 +13034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/115/DIOD_S_A0003132884_1-2542222.pdf"
 			(at 254 124.46 0)
 			(effects
 				(font
@@ -13395,7 +13393,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n, 25V"
+		(property "Value" "680nF, 25V"
 			(at 275.844 83.82 0)
 			(effects
 				(font
@@ -13404,7 +13402,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 275.59 78.74 0)
 			(effects
 				(font
@@ -13431,7 +13429,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "5c70984812875079b91f8bf2"
+		(property "UST_ID" "64c7d8bd76c82a1d3b579273"
 			(at 275.59 78.74 0)
 			(effects
 				(font
@@ -13714,7 +13712,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ad95c141-df01-4a0a-80d4-8297644cfac7")
 		(property "Reference" "C19"
 			(at 43.18 27.9462 0)
@@ -13725,8 +13722,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u, 25V"
-			(at 43.18 30.4862 0)
+		(property "Value" "10uF"
+			(at 35.56 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13761,7 +13758,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "669997d16fdfe6f54e2eb335"
+		(property "UST_ID" "607c0671128750769ee58c7f"
 			(at 40.64 29.21 0)
 			(effects
 				(font
@@ -14005,7 +14002,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b56c643e-cdb7-47ef-bbdd-a1ec97e98ef5")
 		(property "Reference" "#PWR012"
 			(at 35.56 36.83 0)
@@ -14017,7 +14013,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 35.433 35.56 0)
+			(at 29.21 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15669,7 +15665,7 @@
 			)
 		)
 		(property "Value" "100u, 25V"
-			(at 51.308 30.48 0)
+			(at 45.72 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15970,7 +15966,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DMT31M7LPS"
+		(property "Value" "DMTH3002LPS-13"
 			(at 260.35 87.6299 0)
 			(effects
 				(font
@@ -15988,7 +15984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/115/DIOD_S_A0003132884_1-2542222.pdf"
 			(at 254 86.36 0)
 			(effects
 				(font
@@ -16292,7 +16288,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DMT31M7LPS"
+		(property "Value" "DMTH3002LPS-13"
 			(at 260.35 73.6599 0)
 			(effects
 				(font
@@ -16310,7 +16306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/115/DIOD_S_A0003132884_1-2542222.pdf"
 			(at 254 72.39 0)
 			(effects
 				(font
