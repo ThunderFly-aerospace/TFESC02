@@ -2946,7 +2946,7 @@
 <path style="fill: #212020;fill-opacity: 1.0000;stroke: none;fill-rule: evenodd" d="M 161.9482,111.9459 161.6309,111.9459 161.6309,111.6286 161.9482,111.6286 Z"/> 
 </g>
 <g style="fill: none;stroke: #212020;stroke-width: 0.1000;stroke-opacity: 1;stroke-linecap: round;stroke-linejoin: round">
-<text x="167.2750" y="147.7000" transform="scale(-1 1) translate(-334.550000 0)" textLength="12.2929" font-size="1.0000" lengthAdjust="spacingAndGlyphs" text-anchor="start" opacity="0">12V  3v3  FG  FAULT</text>
+<text x="167.2750" y="147.7000" transform="scale(-1 1) translate(-334.550000 0)" textLength="12.2929" font-size="1.0000" lengthAdjust="spacingAndGlyphs" text-anchor="start" opacity="0" stroke-opacity="0">12V  3v3  FG  FAULT</text>
 <g class="stroked-text"><desc>12V  3v3  FG  FAULT</desc>
 <path d="M166.6378 147.5969 L167.0664 147.5969 "/>
 <path d="M166.8521 147.5969 L166.8521 146.7969 "/>
@@ -3031,7 +3031,7 @@
 <path d="M156.0663 147.5969 L156.0663 146.7969 "/>
 <path d="M155.5663 146.7969 L155.1378 146.7969 "/>
 <path d="M155.3521 147.5969 L155.3521 146.7969 "/>
-</g><text x="145.4000" y="107.0200" transform="scale(-1 1) translate(-290.800000 0)" textLength="8.7190" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">MOTOR OUT</text>
+</g><text x="145.4000" y="107.0200" transform="scale(-1 1) translate(-290.800000 0)" textLength="8.7190" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0" stroke-opacity="0">MOTOR OUT</text>
 <g class="stroked-text"><desc>MOTOR OUT</desc>
 <path d="M149.4714 106.9774 L149.4714 105.9774 "/>
 <path d="M149.4714 105.9774 L149.1381 106.6917 "/>
@@ -3109,7 +3109,7 @@
 <path d="M142.0905 106.7870 L142.0905 105.9774 "/>
 <path d="M141.7571 105.9774 L141.1857 105.9774 "/>
 <path d="M141.4714 106.9774 L141.4714 105.9774 "/>
-</g><text x="145.4000" y="108.6300" transform="scale(-1 1) translate(-290.800000 0)" textLength="6.0048" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">C  B  A</text>
+</g><text x="145.4000" y="108.6300" transform="scale(-1 1) translate(-290.800000 0)" textLength="6.0048" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0" stroke-opacity="0">C  B  A</text>
 <g class="stroked-text"><desc>C  B  A</desc>
 <path d="M147.5429 108.4922 L147.5905 108.5398 "/>
 <path d="M147.5905 108.5398 L147.7333 108.5874 "/>
@@ -3147,7 +3147,7 @@
 <path d="M143.1143 108.3017 L142.6381 108.3017 "/>
 <path d="M143.2095 108.5874 L142.8762 107.5874 "/>
 <path d="M142.8762 107.5874 L142.5429 108.5874 "/>
-</g><text x="131.3500" y="147.6250" transform="scale(-1 1) translate(-262.700000 0)" textLength="6.0048" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">PWR-IN</text>
+</g><text x="131.3500" y="147.6250" transform="scale(-1 1) translate(-262.700000 0)" textLength="6.0048" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0" stroke-opacity="0">PWR-IN</text>
 <g class="stroked-text"><desc>PWR-IN</desc>
 <path d="M134.0643 147.5824 L134.0643 146.5824 "/>
 <path d="M134.0643 146.5824 L133.6833 146.5824 "/>
@@ -3181,7 +3181,7 @@
 <path d="M128.6357 147.5824 L128.6357 146.5824 "/>
 </g></g>
 <g style="fill: none;stroke: #212020;stroke-width: 0.4000;stroke-opacity: 1;stroke-linecap: round;stroke-linejoin: round">
-<text x="145.5000" y="124.4250" transform="scale(-1 1) translate(-291.000000 0)" textLength="15.2762" font-size="2.6667" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">TFESC02A</text>
+<text x="145.5000" y="124.4250" transform="scale(-1 1) translate(-291.000000 0)" textLength="15.2762" font-size="2.6667" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0" stroke-opacity="0">TFESC02A</text>
 <g class="stroked-text"><desc>TFESC02A</desc>
 <path d="M152.5476 122.3294 L151.4048 122.3294 "/>
 <path d="M151.9762 124.3294 L151.9762 122.3294 "/>
@@ -3262,7 +3262,7 @@
 </g></g>
 <g style="fill: none;stroke: #212020;stroke-width: 0.1500;stroke-opacity: 1;stroke-linecap: round;stroke-linejoin: round">
 <g transform="rotate(-90.000000 166.0250 132.9000)">
-<text x="166.0250" y="133.5000" transform="scale(-1 1) translate(-332.050000 0)" textLength="11.1814" font-size="1.6000" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">Pixhawk I2C</text>
+<text x="166.0250" y="133.5000" transform="scale(-1 1) translate(-332.050000 0)" textLength="11.1814" font-size="1.6000" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0" stroke-opacity="0">Pixhawk I2C</text>
 </g>
 <g class="stroked-text"><desc>Pixhawk I2C</desc>
 <path d="M166.5723 127.7000 L165.3723 127.7000 "/>
@@ -3339,7 +3339,7 @@
 <path d="M165.4295 138.1000 L165.4866 138.1571 "/>
 </g></g>
 <g style="fill: none;stroke: #212020;stroke-width: 0.1000;stroke-opacity: 1;stroke-linecap: round;stroke-linejoin: round">
-<text x="163.2750" y="130.9851" transform="scale(-1 1) translate(-326.550000 0)" textLength="3.1476" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">GND</text>
+<text x="163.2750" y="130.9851" transform="scale(-1 1) translate(-326.550000 0)" textLength="3.1476" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0" stroke-opacity="0">GND</text>
 <g class="stroked-text"><desc>GND</desc>
 <path d="M164.0369 129.9901 L164.1321 129.9425 "/>
 <path d="M164.1321 129.9425 L164.2750 129.9425 "/>
@@ -3372,7 +3372,7 @@
 <path d="M162.0369 130.7996 L162.1321 130.8949 "/>
 <path d="M162.1321 130.8949 L162.2750 130.9425 "/>
 <path d="M162.2750 130.9425 L162.5131 130.9425 "/>
-</g><text x="163.2750" y="132.5950" transform="scale(-1 1) translate(-326.550000 0)" textLength="2.9095" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">SDA</text>
+</g><text x="163.2750" y="132.5950" transform="scale(-1 1) translate(-326.550000 0)" textLength="2.9095" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0" stroke-opacity="0">SDA</text>
 <g class="stroked-text"><desc>SDA</desc>
 <path d="M164.4893 132.5048 L164.3464 132.5524 "/>
 <path d="M164.3464 132.5524 L164.1083 132.5524 "/>
@@ -3408,7 +3408,7 @@
 <path d="M162.5369 132.2667 L162.0607 132.2667 "/>
 <path d="M162.6321 132.5524 L162.2988 131.5524 "/>
 <path d="M162.2988 131.5524 L161.9655 132.5524 "/>
-</g><text x="163.2750" y="134.2050" transform="scale(-1 1) translate(-326.550000 0)" textLength="2.8619" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">SCL</text>
+</g><text x="163.2750" y="134.2050" transform="scale(-1 1) translate(-326.550000 0)" textLength="2.8619" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0" stroke-opacity="0">SCL</text>
 <g class="stroked-text"><desc>SCL</desc>
 <path d="M164.4655 134.1148 L164.3226 134.1624 "/>
 <path d="M164.3226 134.1624 L164.0845 134.1624 "/>
@@ -3446,7 +3446,7 @@
 <path d="M162.9417 133.2100 L162.8940 133.2576 "/>
 <path d="M161.9893 134.1624 L162.4655 134.1624 "/>
 <path d="M162.4655 134.1624 L162.4655 133.1624 "/>
-</g><text x="163.2750" y="135.8149" transform="scale(-1 1) translate(-326.550000 0)" textLength="2.7667" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">5v4</text>
+</g><text x="163.2750" y="135.8149" transform="scale(-1 1) translate(-326.550000 0)" textLength="2.7667" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0" stroke-opacity="0">5v4</text>
 <g class="stroked-text"><desc>5v4</desc>
 <path d="M163.8940 134.7723 L164.3702 134.7723 "/>
 <path d="M164.3702 134.7723 L164.4179 135.2485 "/>
@@ -3468,7 +3468,7 @@
 <path d="M162.2274 135.1057 L162.2274 135.7723 "/>
 <path d="M162.4655 134.7247 L162.7036 135.4390 "/>
 <path d="M162.7036 135.4390 L162.0845 135.4390 "/>
-</g><text x="167.1750" y="146.0250" transform="scale(-1 1) translate(-334.350000 0)" textLength="3.6238" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="start" opacity="0">LEDs</text>
+</g><text x="167.1750" y="146.0250" transform="scale(-1 1) translate(-334.350000 0)" textLength="3.6238" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="start" opacity="0" stroke-opacity="0">LEDs</text>
 <g class="stroked-text"><desc>LEDs</desc>
 <path d="M166.3949 145.8974 L166.8711 145.8974 "/>
 <path d="M166.8711 145.8974 L166.8711 144.8974 "/>
@@ -3504,7 +3504,7 @@
 <path d="M164.0616 145.2308 L163.9187 145.2308 "/>
 <path d="M163.9187 145.2308 L163.8235 145.2784 "/>
 </g><g transform="rotate(-270.000000 151.8946 147.9500)">
-<text x="151.8946" y="147.9500" transform="scale(-1 1) translate(-303.789216 0)" textLength="3.1476" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="start" opacity="0">GND</text>
+<text x="151.8946" y="147.9500" transform="scale(-1 1) translate(-303.789216 0)" textLength="3.1476" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="start" opacity="0" stroke-opacity="0">GND</text>
 </g>
 <g class="stroked-text"><desc>GND</desc>
 <path d="M152.9746 147.1223 L153.0222 147.2175 "/>
@@ -3539,7 +3539,7 @@
 <path d="M152.0698 145.2175 L152.0222 145.3604 "/>
 <path d="M152.0222 145.3604 L152.0222 145.5985 "/>
 </g><g transform="rotate(-270.000000 150.2847 147.9500)">
-<text x="150.2847" y="147.9500" transform="scale(-1 1) translate(-300.569328 0)" textLength="5.4333" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="start" opacity="0">#FAULT</text>
+<text x="150.2847" y="147.9500" transform="scale(-1 1) translate(-300.569328 0)" textLength="5.4333" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="start" opacity="0" stroke-opacity="0">#FAULT</text>
 </g>
 <g class="stroked-text"><desc>#FAULT</desc>
 <path d="M151.0789 147.6937 L151.0789 146.9794 "/>
@@ -3566,7 +3566,7 @@
 <path d="M151.4122 143.2175 L151.4122 142.6461 "/>
 <path d="M150.4122 142.9318 L151.4122 142.9318 "/>
 </g><g transform="rotate(-270.000000 148.6747 147.9500)">
-<text x="148.6747" y="147.9500" transform="scale(-1 1) translate(-297.349440 0)" textLength="4.8619" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="start" opacity="0">BRAKE</text>
+<text x="148.6747" y="147.9500" transform="scale(-1 1) translate(-297.349440 0)" textLength="4.8619" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="start" opacity="0" stroke-opacity="0">BRAKE</text>
 </g>
 <g class="stroked-text"><desc>BRAKE</desc>
 <path d="M149.3261 147.3128 L149.2785 147.1699 "/>
@@ -3609,7 +3609,7 @@
 <path d="M148.8023 143.7890 L149.8023 143.7890 "/>
 <path d="M149.8023 143.7890 L149.8023 143.3128 "/>
 </g><g transform="rotate(-270.000000 147.0648 147.9500)">
-<text x="147.0648" y="147.9500" transform="scale(-1 1) translate(-294.129552 0)" textLength="3.7667" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="start" opacity="0">MPIO</text>
+<text x="147.0648" y="147.9500" transform="scale(-1 1) translate(-294.129552 0)" textLength="3.7667" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="start" opacity="0" stroke-opacity="0">MPIO</text>
 </g>
 <g class="stroked-text"><desc>MPIO</desc>
 <path d="M147.1924 147.6461 L148.1924 147.6461 "/>
@@ -3644,7 +3644,7 @@
 <path d="M148.0495 145.0271 L148.1447 144.9318 "/>
 <path d="M148.1447 144.9318 L148.1924 144.8366 "/>
 </g><g transform="rotate(-270.000000 145.4548 147.9500)">
-<text x="145.4548" y="147.9500" transform="scale(-1 1) translate(-290.909664 0)" textLength="2.5762" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="start" opacity="0">DIR</text>
+<text x="145.4548" y="147.9500" transform="scale(-1 1) translate(-290.909664 0)" textLength="2.5762" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="start" opacity="0" stroke-opacity="0">DIR</text>
 </g>
 <g class="stroked-text"><desc>DIR</desc>
 <path d="M145.5824 147.6461 L146.5824 147.6461 "/>
@@ -3672,7 +3672,7 @@
 <path d="M146.1062 145.6937 L146.0586 145.7890 "/>
 <path d="M146.0586 145.7890 L146.0586 146.1699 "/>
 </g><g transform="rotate(-270.000000 143.8449 147.9500)">
-<text x="143.8449" y="147.9500" transform="scale(-1 1) translate(-287.689776 0)" textLength="1.9571" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="start" opacity="0">FG</text>
+<text x="143.8449" y="147.9500" transform="scale(-1 1) translate(-287.689776 0)" textLength="1.9571" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="start" opacity="0" stroke-opacity="0">FG</text>
 </g>
 <g class="stroked-text"><desc>FG</desc>
 <path d="M144.4963 147.3128 L144.4963 147.6461 "/>
@@ -3695,7 +3695,7 @@
 <path d="M144.0677 146.2175 L144.4010 146.2175 "/>
 <path d="M144.4010 146.2175 L144.4010 146.4080 "/>
 </g><g transform="rotate(-270.000000 142.2349 147.9500)">
-<text x="142.2349" y="147.9500" transform="scale(-1 1) translate(-284.469888 0)" textLength="4.8619" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="start" opacity="0">SPEED</text>
+<text x="142.2349" y="147.9500" transform="scale(-1 1) translate(-284.469888 0)" textLength="4.8619" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="start" opacity="0" stroke-opacity="0">SPEED</text>
 </g>
 <g class="stroked-text"><desc>SPEED</desc>
 <path d="M142.4101 147.6937 L142.3625 147.5509 "/>
@@ -3748,7 +3748,7 @@
 <path d="M142.4101 143.5033 L142.3625 143.6461 "/>
 <path d="M142.3625 143.6461 L142.3625 143.8842 "/>
 </g><g transform="rotate(-270.000000 140.6250 147.9500)">
-<text x="140.6250" y="147.9500" transform="scale(-1 1) translate(-281.250000 0)" textLength="6.4810" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="start" opacity="0">DRV_OFF</text>
+<text x="140.6250" y="147.9500" transform="scale(-1 1) translate(-281.250000 0)" textLength="6.4810" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="start" opacity="0" stroke-opacity="0">DRV_OFF</text>
 </g>
 <g class="stroked-text"><desc>DRV_OFF</desc>
 <path d="M140.7526 147.6461 L141.7526 147.6461 "/>
@@ -3801,7 +3801,7 @@
 <path d="M141.7526 142.1223 L141.7526 141.6461 "/>
 </g></g>
 <g style="fill: none;stroke: #212020;stroke-width: 0.1500;stroke-opacity: 1;stroke-linecap: round;stroke-linejoin: round">
-<text x="145.3000" y="126.2000" transform="scale(-1 1) translate(-290.600000 0)" textLength="14.5824" font-size="1.4667" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">ThunderFly, 2024</text>
+<text x="145.3000" y="126.2000" transform="scale(-1 1) translate(-290.600000 0)" textLength="14.5824" font-size="1.4667" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0" stroke-opacity="0">ThunderFly, 2024</text>
 <g class="stroked-text"><desc>ThunderFly, 2024</desc>
 <path d="M152.3714 125.0511 L151.7429 125.0511 "/>
 <path d="M152.0571 126.1511 L152.0571 125.0511 "/>
@@ -3912,7 +3912,7 @@
 <path d="M138.4381 125.4177 L138.4381 126.1511 "/>
 <path d="M138.7000 124.9987 L138.9619 125.7844 "/>
 <path d="M138.9619 125.7844 L138.2810 125.7844 "/>
-</g><text x="145.4500" y="128.8000" transform="scale(-1 1) translate(-290.900000 0)" textLength="27.9167" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">High performance FOC motor driver,</text>
+</g><text x="145.4500" y="128.8000" transform="scale(-1 1) translate(-290.900000 0)" textLength="27.9167" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0" stroke-opacity="0">High performance FOC motor driver,</text>
 <g class="stroked-text"><desc>High performance FOC motor driver,</desc>
 <path d="M159.0452 128.8398 L159.0452 127.8398 "/>
 <path d="M159.0452 128.3160 L158.4738 128.3160 "/>
@@ -4193,7 +4193,7 @@
 <path d="M131.8071 128.7922 L131.8071 128.8398 "/>
 <path d="M131.8071 128.8398 L131.8548 128.9351 "/>
 <path d="M131.8548 128.9351 L131.9024 128.9827 "/>
-</g><text x="145.4500" y="130.4099" transform="scale(-1 1) translate(-290.900000 0)" textLength="30.4881" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">compatibile with Pixhawk I2C interface.</text>
+</g><text x="145.4500" y="130.4099" transform="scale(-1 1) translate(-290.900000 0)" textLength="30.4881" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0" stroke-opacity="0">compatibile with Pixhawk I2C interface.</text>
 <g class="stroked-text"><desc>compatibile with Pixhawk I2C interface.</desc>
 <path d="M159.9024 130.4021 L159.9976 130.4498 "/>
 <path d="M159.9976 130.4498 L160.1881 130.4498 "/>
