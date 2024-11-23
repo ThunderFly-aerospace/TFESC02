@@ -1,6 +1,6 @@
 # TFESC02 - BLDC Motor Driver Module with I2C interface
 
-This TFESC02 is designed to control BLDC motors in UAV applications via the I2C interface. It leverages the MCF8329A integrated circuit, which provides a sensorless Field Oriented Control (FOC) solution for three-phase BLDC motors. The ice is enhanced with external FETs to handle higher currents, suitable for small and micro UAV propulsion systems.
+This TFESC02 is designed to control BLDC motors in UAV applications via the I2C interface. It leverages the [MCF8329A](https://www.ti.com/product/MCF8329A) integrated circuit, which provides a sensorless Field Oriented Control (FOC) solution for three-phase BLDC motors. The ice is enhanced with external FETs to handle higher currents and is suitable for small and micro UAV propulsion systems.
 
 ![](doc/gen/img/TFESC02-top.png)
 
@@ -8,7 +8,7 @@ This TFESC02 is designed to control BLDC motors in UAV applications via the I2C 
 
 - **Sensorless FOC Algorithm**: Integrated, code-free single shunt FOC with support for up to 1.8 kHz electrical frequency and flux weakening control.
 - **Versatile Control Inputs**: Supports analog, PWM, frequency, or I2C-based control inputs.
-- **Configurable Startup and Stop Options**: Allows customization of motor startup and stop behaviors.
+- **Configurable Startup and Stop Options**: Allows motor startup and stop behaviors customization.
 - **Protection Features**: Includes supply under-voltage lockout (UVLO), over-current protection (OCP), thermal shutdown (TSD), motor lock detection, and more.
 - **High Voltage and Current Handling**: Supports 4.5 to 60 V operating voltage, driving external N-channel MOSFETs with up to 10 A current.
 - **Low-Power Sleep Mode**: Consumes only 5 µA in sleep mode at VPVDD = 24 V.
