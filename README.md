@@ -1,47 +1,56 @@
-# TFESC02 - BLDC Motor Driver Module with I2C interface
+# TFESC02 - BLDC Motor Driver Module with I2C Interface
 
-This TFESC02 is designed to control BLDC motors in UAV applications via the I2C interface. It leverages the [MCF8329A](https://www.ti.com/product/MCF8329A) integrated circuit, which provides a sensorless Field Oriented Control (FOC) solution for three-phase BLDC motors. The ice is enhanced with external FETs to handle higher currents and is suitable for small and micro UAV propulsion systems.
+The TFESC02 is a high-performance BLDC motor driver device designed specifically for unmanned aerial vehicle (UAV) applications. At its core uses the [MCF8329A](https://www.ti.com/product/MCF8329A) integrated circuit, which enables advanced Field Oriented Control (FOC) without requiring feedback sensors. The TFESC02 is optimized for integration into UAV systems via the I2C interface and is fully compatible with PX4 autopilot firmware, providing a seamless solution for propulsion systems in small and micro UAVs.
 
-![](doc/gen/img/TFESC02-top.png)
+![TFESC02 - ThunderFly BLDC Motor Driver Top view](doc/gen/img/TFESC02-top.png)
 
-### Features
+![TFESC02 - ThunderFly BLDC Motor Driver Bottom view](doc/gen/img/TFESC02-bottom.png)
 
-- **Sensorless FOC Algorithm**: Integrated, code-free single shunt FOC with support for up to 1.8 kHz electrical frequency and flux weakening control.
-- **Versatile Control Inputs**: Supports analog, PWM, frequency, or I2C-based control inputs.
-- **Configurable Startup and Stop Options**: Allows motor startup and stop behaviors customization.
-- **Protection Features**: Includes supply under-voltage lockout (UVLO), over-current protection (OCP), thermal shutdown (TSD), motor lock detection, and more.
-- **High Voltage and Current Handling**: Supports 4.5 to 60 V operating voltage, driving external N-channel MOSFETs with up to 10 A current.
-- **Low-Power Sleep Mode**: Consumes only 5 µA in sleep mode at VPVDD = 24 V.
+## Features
 
-### Applications
-- UAV propulsion systems
-- Actuators
+- **Sensorless Field Oriented Control (FOC)**:
+  - Integrated single-shunt FOC with support for up to 1.8 kHz electrical frequency.
+  - Flux weakening control for extending motor speed range under voltage constraints.
 
-### Technical Specifications
-- **Input Voltage Range**: 4.5 to 60 V
-- **Control Interfaces**: I2C, PWM, Analog, Frequency
+- **Energy Efficiency**:
+  - Maximum Torque Per Ampere (MTPA) for optimal torque generation with minimal current.
+  - Closed-loop current control to dynamically adjust power consumption based on load.
+
+- **Control Interface**:
+  - Primary control via I2C, compatible with PX4 autopilot systems.
+  - Additional support for PWM, analog voltage, or frequency-based control is possible
+
+- **Real-Time Monitoring and Diagnostics**:
+  - Configurable 12-bit DACOUT for indication of motor variables like speed, power, and current.
+  - I2C interface for fault diagnostics and configuration.
+
+- **Robust Protection Features**:
+  - Supply under-voltage lockout (UVLO), over-current protection (OCP), thermal shutdown (TSD), and motor lock detection.
+  - Anti-voltage surge protection to guard on board electronics against spikes.
+
+## Technical Specifications
+
+- **Input Voltage Range**: 4.5 to 24 V
+- **Current Handling**: MOSFETs  designed for up to 10 A RMS.
+- **Control Interfaces**: I2C (primary), PWM, Analog, Frequency
 - **Operating Temperature**: -40°C to 125°C
-- **Current Sensing**: Integrated current sense amplifier with adjustable gain
-- **Package**: VQFN (36) 5.00 mm × 4.00 mm
+- **Monitoring and Diagnostics**: DACOUT, I2C fault diagnostics
+- **Dimensions**: 45x45mm (45x52 including motor connector)
 
-### Module Design Considerations
-The TFESC02 integrates the following key functionalities to optimize UAV motor control:
+## Integration with UAV Systems
 
-1. **Gate Driver Architecture**: Drives 3 high-side and 3 low-side N-channel MOSFETs with a bootstrap-based gate driver architecture.
-2. **Configurable Reference Profiles**: 5-point configurable reference profile support for tailored motor control.
-3. **Real-Time Monitoring**: Variable monitoring via DACOUT for effective tuning of speed, power, or current loops.
-4. **Protection Mechanisms**: Enhanced protection features including anti-voltage surge, fault diagnostics over I2C, and motor lock detection.
+The TFESC02 is designed for seamless integration into UAV propulsion systems. Exposing the I2C interface for engine control. This allows direct compatibility with the PX4 autopilot firmware, a widely used platform in UAV development. Using I2C, the autopilot can precisely control motor speed, torque, and power, while continuously monitoring system parameters for optimal performance.
 
-### Schematic Diagram
-Refer to the simplified schematic in the datasheet for a detailed layout. Key connections include:
+### Energy Efficiency for Extended Flight Time
 
-- **Power Supply**: Connect 4.5 to 60 V to PVDD.
-- **Gate Drive Outputs**: Connect high-side and low-side MOSFET gates to GHA, GLA, GHB, GLB, GHC, GLC.
-- **Control Inputs**: Connect I2C lines to SCL and SDA. Optional control via PWM or analog inputs.
-- **Protection and Monitoring**: Utilize nFAULT and DACOUT pins for fault indication and variable monitoring.
+Energy efficiency is critical for UAV applications to maximize flight time and operational range. TFESC02 implements advanced features like **Maximum Torque Per Ampere (MTPA)** to reduce current draw and improve overall power utilization. Additionally, its **closed-loop current control** adjusts power consumption dynamically to match varying payloads or flight conditions, ensuring that the UAV operates efficiently in all scenarios.
 
-### Getting Started
-1. **Powering the Module**: Ensure proper input voltage is applied to TFESC02.
-2. **Configuring Control Interface**: Set up I2C, PWM, or analog control inputs as per application requirements.
-3. **Motor Connection**: Connect the motor phases to the corresponding outputs (OUTA, OUTB, OUTC).
-4. **Monitoring and Protection**: Configure protection features via I2C if needed.
+### Advanced Motor Control and Real-Time Feedback
+
+The TFESC02’s sensorless FOC algorithm simplifies motor control without the need for external sensors, while its **real-time monitoring capabilities** provide critical data for fine-tuning and diagnostics. Using the **12-bit DACOUT output**, users can observe motor variables such as speed and torque during operation, enabling precise optimization for specific UAV tasks.
+
+### Reliable Operation in Demanding Environments
+
+The TFESC02 includes extensive protection features to ensure reliability in challenging UAV environments. Its built-in overcurrent and thermal protections safeguard both the electronics and the motor, while the anti-voltage surge mechanism prevents damage from unexpected power spikes. Additionally, fault diagnostics via the I2C interface allow developers to quickly identify and address issues or allow the control system to take relevant countermeasures. 
+
+
