@@ -14,7 +14,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 13,"Light emitting diode, small symbol",LED_Small,D2,GREEN,LED_0603_1608Metric,1,~,60d582331287500165f859d0,,,
 14,"Light emitting diode, small symbol",LED_Small,D5,RED,LED_0603_1608Metric,1,~,60d581db1287500165f859a2,,,
 15,"Light emitting diode, small symbol",LED_Small,D1,YELLOW,LED_0603_1608Metric,1,~,60d582a31287500165f859f8,,,
-16,"Motor / Motion / Ignition Controllers & Drivers 60-V, sensorless, field-oriented control (FOC) three-phase BLDC gate driver 36-WQFN -40 to 125",MCF8329A1IREER,IC1,MCF8329A1IREER,VQFN36_P400X500X80-37N-D,1,https://www.ti.com/lit/gpn/mcf8329a,66998eac6fdfe6f54e2eb206,0.8,Texas Instruments,MCF8329A1IREER
+16,"Motor / Motion / Ignition Controllers & Drivers 60-V, sensorless, field-oriented control (FOC) three-phase BLDC gate driver 36-WQFN -40 to 125",MCF8329A1IREER,IC1,MCF8329A1IREER,VQFN36_P400X500X80-37N-D,1,https://www.ti.com/lit/gpn/mcf8329a,677ec2acd509c19f2ce8f4cd,0.8,Texas Instruments,MCF8329A1IREER
 17,,MR30PW-F,J5,MR30PW-F,AMASS_MR30PW-FB_1x03_P3.50mm_Horizontal,1,https://www.tme.eu/Document/4a6895c4a2c7eddf355b391fd904cb53/MR30PW-FB.pdf,66998f726fdfe6f54e2eb268,,,MR30PW-F
 18,,SM04B-GHS-TB,J1,SM04B-GHS-TB,JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal,1,,5c86273d1287500b4e0280be,,,SM04B-GHS-TB
 19,1x08 2.54 mm pitch header,SM08B-GHS-TB,J4,SM08B-GHS-TB,JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal,1,,5fa0f75012875025b3977948,,,

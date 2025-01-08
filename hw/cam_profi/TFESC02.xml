@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFESC02.kicad_sch</source>
-    <date>2024-10-19T01:28:14+0000</date>
-    <tool>Eeschema 8.0.4+1</tool>
+    <date>2025-01-08T18:33:00+0000</date>
+    <tool>Eeschema 8.0.6+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>TFESC01A</title>
         <company>ThunderFly s.r.o.</company>
         <rev>01A</rev>
-        <date/>
+        <date>2025-01-08</date>
         <source>TFESC02.kicad_sch</source>
         <comment number="1" value="Roman Dvorak"/>
         <comment number="2" value="&lt;dvorakroman@thunderfly.cz&gt;"/>
@@ -606,7 +606,7 @@
         <field name="Mouser Price/Stock"/>
         <field name="Arrow Part Number"/>
         <field name="Arrow Price/Stock"/>
-        <field name="UST_ID">66998eac6fdfe6f54e2eb206</field>
+        <field name="UST_ID">677ec2acd509c19f2ce8f4cd</field>
         <field name="Footprint">Mlab_IO:VQFN36_P400X500X80-37N-D</field>
         <field name="Datasheet">https://www.ti.com/lit/gpn/mcf8329a</field>
         <field name="Description">Motor / Motion / Ignition Controllers &amp; Drivers 60-V, sensorless, field-oriented control (FOC) three-phase BLDC gate driver 36-WQFN -40 to 125</field>
@@ -619,7 +619,7 @@
       <property name="Mouser Price/Stock" value=""/>
       <property name="Arrow Part Number" value=""/>
       <property name="Arrow Price/Stock" value=""/>
-      <property name="UST_ID" value="66998eac6fdfe6f54e2eb206"/>
+      <property name="UST_ID" value="677ec2acd509c19f2ce8f4cd"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFESC02.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
