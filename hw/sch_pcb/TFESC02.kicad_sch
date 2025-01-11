@@ -9,8 +9,8 @@
 		(date "2025-01-08")
 		(rev "01A")
 		(company "ThunderFly s.r.o.")
-		(comment 1 "Roman Dvorak")
-		(comment 2 "<dvorakroman@thunderfly.cz>")
+		(comment 1 "BLDC motor driver for UAVs")
+		(comment 2 "with I2C interface")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"

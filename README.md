@@ -1,10 +1,8 @@
 # TFESC02 - BLDC Motor Driver Module with I2C Interface
 
-The TFESC02 is a high-performance BLDC motor driver device designed specifically for unmanned aerial vehicle (UAV) applications. At its core uses the [MCF8329A](https://www.ti.com/product/MCF8329A) integrated circuit, which enables advanced Field Oriented Control (FOC) without requiring feedback sensors. The TFESC02 is optimized for integration into UAV systems via the I2C interface and is fully compatible with PX4 autopilot firmware, providing a seamless solution for propulsion systems in small and micro UAVs.
+![TFESC02 - ThunderFly BLDC Motor Driver PCB Top view](doc/img/TFESC02_top3.jpg)
 
-![TFESC02 - ThunderFly BLDC Motor Driver Top view](doc/gen/img/TFESC02-top.png)
-
-![TFESC02 - ThunderFly BLDC Motor Driver Bottom view](doc/gen/img/TFESC02-bottom.png)
+The TFESC02 is a high-performance BLDC motor driver device designed specifically for unmanned aerial vehicle (UAV) applications. At its core uses the [MCF8329A](https://www.ti.com/product/MCF8329A) integrated circuit, which enables advanced Field Oriented Control (FOC) without requiring feedback sensors. The TFESC02 is optimized for integration into UAV systems via the I2C interface and is supported in PX4 autopilot firmware, providing a seamless solution for propulsion systems in small and micro UAVs.
 
 ## Features
 
@@ -21,12 +19,16 @@ The TFESC02 is a high-performance BLDC motor driver device designed specifically
   - Additional support for PWM, analog voltage, or frequency-based control is possible
 
 - **Real-Time Monitoring and Diagnostics**:
-  - Configurable 12-bit DACOUT for indication of motor variables like speed, power, and current.
+  - Configurable 12-bit DACOUT for real-time indication of motor variables like speed, power, and current.
   - I2C interface for fault diagnostics and configuration.
 
 - **Robust Protection Features**:
   - Supply under-voltage lockout (UVLO), over-current protection (OCP), thermal shutdown (TSD), and motor lock detection.
   - Anti-voltage surge protection to guard on board electronics against spikes.
+
+## Where to get it?
+
+The TFESC02 is available from [ThunderFly s.r.o.](https://www.thunderfly.cz/). For a commercial quotation, contact us by email at sale@thunderfly.cz or shop at our [Tindie store](https://www.tindie.com/stores/thunderfly/).
 
 ## Technical Specifications
 
@@ -36,6 +38,11 @@ The TFESC02 is a high-performance BLDC motor driver device designed specifically
 - **Operating Temperature**: -40°C to 125°C
 - **Monitoring and Diagnostics**: DACOUT, I2C fault diagnostics
 - **Dimensions**: 45x45mm (45x52 including motor connector)
+- **Mass**: 13 grams
+
+![TFESC02 - ThunderFly BLDC Motor Driver PCB Top view](doc/gen/img/TFESC02-top.png)
+
+![TFESC02 - ThunderFly BLDC Motor Driver PCB Bottom view](doc/gen/img/TFESC02-bottom.png)
 
 ## Integration with UAV Systems
 
