@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFESC02.kicad_sch</source>
-    <date>2025-01-08T18:33:00+0000</date>
+    <date>2025-01-11T23:51:58+0000</date>
     <tool>Eeschema 8.0.6+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -11,8 +11,8 @@
         <rev>01A</rev>
         <date>2025-01-08</date>
         <source>TFESC02.kicad_sch</source>
-        <comment number="1" value="Roman Dvorak"/>
-        <comment number="2" value="&lt;dvorakroman@thunderfly.cz&gt;"/>
+        <comment number="1" value="BLDC motor driver for UAVs"/>
+        <comment number="2" value="with I2C interface"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
