@@ -1,3 +1,8 @@
+#pragma once
+#include <cstdint>
+#include <cstddef>
+
+
 #ifndef MCT8329A_REGISTERS_H
 #define MCT8329A_REGISTERS_H
 

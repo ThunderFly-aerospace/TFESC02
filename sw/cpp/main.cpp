@@ -7,6 +7,7 @@
 #include <linux/i2c-dev.h>
 #include <stdexcept>
 #include <cstring>
+#include <cstdint>
 #include "mct8329a_registers.h"
 
 #define I2C_DEVICE "/dev/i2c-17"
